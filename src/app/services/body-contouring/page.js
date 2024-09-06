@@ -11,7 +11,7 @@ export default function BodyContouring() {
             <p className="text-gray-600 mt-6  leading-relaxed">
               As a dedicated body contouring specialist, I help you achieve your
               ideal silhouette through tailored, cutting-edge procedures.
-              Combining artistry with advanced techniques, I refine your body's
+              Combining artistry with advanced techniques, I refine your body&apos;s
               natural contours, enhancing your confidence and promoting your
               overall well-being.
             </p>

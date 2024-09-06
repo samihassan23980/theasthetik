@@ -13,7 +13,7 @@ export default function Codependency() {
               overcoming emotional reliance and building healthy, balanced
               relationships. Through personalized treatment, I help you
               rediscover your independence, self-worth, and emotional freedom.
-              Let's embark on a journey towards a stronger, more empowered you.
+              Let&apos;s embark on a journey towards a stronger, more empowered you.
             </p>
 
             <div className="mt-12 flex gap-x-6 gap-y-4 justify-center max-sm:flex-col">

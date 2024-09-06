@@ -64,7 +64,7 @@ export default function Home() {
                 <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
                   Embark on a personalized journey towards your beauty goals
                   with The Ästhetik, where we recognize the uniqueness of each
-                  individual’s needs and concerns. Our commitment is to listen,
+                  individual&rsquo;s needs and concerns. Our commitment is to listen,
                   understand, and tailor a treatment plan exclusively for you.
                   From the initial consultation to dedicated aftercare, we
                   provide assistance and guidance throughout the entire process.
@@ -100,7 +100,7 @@ export default function Home() {
             ReGlow offers personalized Botox treatments led by Dr. Mohammad
             Hurmatali, focusing on enhancing natural beauty with subtle,
             natural-looking results. Botox, an FDA-approved treatment, softens
-            wrinkles by relaxing facial muscles. Dr. Hurmatali's experience
+            wrinkles by relaxing facial muscles. Dr. Hurmatali&apos;s experience
             ensures precision and individualized care, helping patients achieve
             renewed confidence and a youthful appearance.
           </p>
@@ -257,7 +257,7 @@ export default function Home() {
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
                 If you are facing issues like jowls and drooping cheeks but you
-                cannot undergo a facelift surgery (or don’t want to), thread
+                cannot undergo a facelift surgery (or don&rsquo;t want to), thread
                 lifts are the good news for you. Thread lifts provide better
                 face lift than other noninvasive facial rejuvenation methods but
                 is less of a worry than facelift surgeries.

@@ -11,7 +11,7 @@ export default function DifficultConversatition() {
             </h2>
             <p className="text-gray-600 mt-6  leading-relaxed">
               Empowering individuals to confidently navigate challenging
-              conversations with empathy, clarity, and purpose. Whether it's
+              conversations with empathy, clarity, and purpose. Whether it&apos;s
               resolving conflicts, setting boundaries, or addressing sensitive
               topics, I provide guidance to transform difficult dialogues into
               opportunities for deeper connection and personal growth.

@@ -12,7 +12,7 @@ export default function Prp_Treatmnts() {
             <p className="text-gray-600 mt-6  leading-relaxed">
               Discover the power of Platelet-Rich Plasma (PRP) therapy for
               rejuvenation and revitalization. Our advanced PRP treatments
-              harness your body's own healing properties to enhance skin
+              harness your body&apos;s own healing properties to enhance skin
               texture, reduce signs of aging, and promote natural healing.
               Experience a refreshed and youthful appearance with our
               state-of-the-art techniques tailored to your unique needs.

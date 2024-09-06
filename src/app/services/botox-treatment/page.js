@@ -5,14 +5,15 @@ export default function BotoxTreatment() {
         <div className="text-center max-w-2xl max-md:max-w-md mx-auto">
           <div>
             <h2 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
-              Revitalize Your Look,
+              Revitalize Your Look&rsquo;
               <span className="text-blue-600"> Refresh Your Confidence</span>
             </h2>
             <p className="text-gray-600 mt-6  leading-relaxed">
               Achieve a youthful, refreshed appearance with our expert Botox
-              treatments. Whether you're looking to smooth fine lines or prevent
+              treatments. Whether you&apos;
+              re looking to smooth fine lines or prevent
               new ones, our personalized approach ensures natural-looking
-              results, helping you feel confident and rejuvenated.
+              results,  helping you feel confident and rejuvenated.
             </p>
 
             <div className="mt-12 flex gap-x-6 gap-y-4 justify-center max-sm:flex-col">
