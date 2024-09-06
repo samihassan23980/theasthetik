@@ -206,7 +206,7 @@ export default function Navbar() {
                         </li>
                         <li className="rounded px-2">
                           <Link
-                            href="javascript:void(0)"
+                            href="/services/chemical-peels"
                             className=" text-black block"
                           >
                             Chemical Peels
@@ -215,42 +215,42 @@ export default function Navbar() {
                       </ul>
                       <ul className="space-y-4 border-l-4  border-blue-800">
                         <li className="rounded px-2">
-                          <a
-                            href="javascript:void(0)"
+                          <Link
+                            href="/services/thread-lifts"
                             className=" text-black  block"
                           >
                             Thread Lifts
-                          </a>
+                          </Link>
                         </li>
                         <li className="rounded px-2">
-                          <a
-                            href="javascript:void(0) px-2"
+                          <Link
+                            href="/services/botox-treatment "
                             className=" text-black  block"
                           >
                             Botox Treatment
-                          </a>
+                          </Link>
                         </li>
                         <li className="rounded px-2">
-                          <a
-                            href="javascript:void(0)"
+                          <Link
+                            href="/services/fillers-treatment"
                             className=" text-black  block"
                           >
                             Fillers Treatments
-                          </a>
+                          </Link>
                         </li>
                         <li className="rounded px-2">
-                          <a
-                            href="javascript:void(0)"
+                          <Link
+                            href="/services/iv-vitamin-therapy"
                             className=" text-black block"
                           >
                             IV Vitamin Therapy
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                       <ul className="space-y-4 border-l-4 border-blue-800 ">
                         <li className="rounded px-2">
                           <Link
-                            href="javascript:void(0)"
+                            href="/services/mesotherapy"
                             className=" text-black  block"
                           >
                             Mesotherapy
@@ -258,7 +258,7 @@ export default function Navbar() {
                         </li>
                         <li className="rounded px-2">
                           <Link
-                            href="javascript:void(0) px-2"
+                            href="/services/body-contouring"
                             className=" text-black  block"
                           >
                             Body Countouring
@@ -266,7 +266,7 @@ export default function Navbar() {
                         </li>
                         <li className="rounded px-2">
                           <Link
-                            href="javascript:void(0)"
+                            href="/services/prp-treatment"
                             className=" text-black  block"
                           >
                             PRP Treatment
@@ -274,7 +274,7 @@ export default function Navbar() {
                         </li>
                         <li className="rounded px-2">
                           <Link
-                            href="javascript:void(0)"
+                            href="/services/hifu-treatment"
                             className=" text-black block"
                           >
                             HIFU Treatment
