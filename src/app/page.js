@@ -98,10 +98,10 @@ export default function Home() {
           <h1 className="text-4xl font-bold px-3 mb-2">Botox Treatment</h1>
           <p className="text-gray-500 dark:text-white">
             ReGlow offers personalized Botox treatments led by Dr. Mohammad
-            Hurmatali, focusing on enhancing natural beauty with subtle,
-            natural-looking results. Botox, an FDA-approved treatment, softens
-            wrinkles by relaxing facial muscles. Dr. Hurmatali&apos;s experience
-            ensures precision and individualized care, helping patients achieve
+            Hurmatali, focusing on enhancing natural beauty with subtle and
+            natural-looking results. Botox and FDA-approved treatment and softens
+            wrinkles by relaxing facial muscles. Dr. Hurmatali experience
+            ensures precision and individualized care and  helping patients achieve
             renewed confidence and a youthful appearance.
           </p>
         </div>
@@ -228,7 +228,7 @@ export default function Home() {
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
                 Chemical peels work like scrubs but are way more effective. In
-                chemical peels, a chemical solution is used that exfoliates and
+                chemical peels and a chemical solution is used that exfoliates and
                 retextures the skin by removing the outer layers. Subsequently a
                 new layer of fresh young skin is formed to help against signs of
                 aging.

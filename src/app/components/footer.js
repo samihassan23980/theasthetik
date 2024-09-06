@@ -8,7 +8,7 @@ export default function Footer(){
               href="https://flowbite.com/"
               className="flex items-center space-x-3 bg-white rtl:space-x-reverse"
             >
-              <Image src={imageLogo} height={60} alt="Flowbite Logo" />
+              <Image src={imageLogo} height={60} alt="main Logo" />
             </a>
           </div>
           <div className="lg:flex lg:items-center">
