@@ -4,14 +4,15 @@ import imageLogo from "/public/logo.png";
 export default function Home() {
   return (
     <div className="bg-white">
-      <section className="px-2 py-32 relative top-16 bg-white md:px-0">
+      {/* hero section start  */}
+      <section className="px-2  py-12 sm:py-32 md:py-32 lg:py-32 relative top-16 bg-white md:px-0">
         <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
           <div className="flex flex-wrap items-center sm:-mx-3">
             <div className="w-full md:w-1/2 md:px-3">
               <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
                 <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
                   <span className="block xl:inline"> Quest of the Best</span>
-                  <span className="block text-blue-700 xl:inline px-2">
+                  <span className="block  text-blue-700 lg:inline sm:px-2">
                     Aesthettic Services
                   </span>
                   <span className="block xl:inline"> Ends Here</span>
@@ -21,23 +22,23 @@ export default function Home() {
                   international institution. We make sure that the treatment
                   provided here using state-of-the-art equipmet is up the mark.
                 </p>
-                <div className="relative flex flex-col sm:flex-row sm:space-x-4">
+                <div className="relative flex justify-around sm:justify-normal sm:flex-row sm:space-x-4">
                   <button
                     type="button"
-                    className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    className="text-white  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
                     Read More
                   </button>
                   <button
                     type="button"
-                    className="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-6 py-4 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+                    className="text-white  bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-6 py-4 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
                   >
                     APPOINTMENT
                   </button>
                 </div>
               </div>
             </div>
-            <div className="w-full md:w-1/2">
+            <div className="w-full hidden md:block md:w-1/2">
               <div className="w-full h-auto overflow-hidden rounded-md shadow-2xl sm:rounded-xl transform hover:scale-105 transition-transform duration-500 ease-in-out">
                 <img
                   src="https://georgedelaneymd.com/wp-content/uploads/2018/10/shutterstock_517359928-e1540313862400.jpg"
@@ -49,11 +50,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <section className=" bg-white relative">
+      {/* hero section end */}
+      {/* about start */}
+      <section className="hidden sm:block bg-white mt-7 md:mt-0 relative">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative ">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
-            <div className=" flex items-center">
+            <div className=" flex items-center ">
               <div className="data w-full">
                 <h2 className="font-manrope font-bold text-2xl lg:text-3xl mb-2 text-black  max-lg:text-center relative">
                   About US
@@ -61,15 +63,16 @@ export default function Home() {
                 <h2 className="font-manrope  font-semibold text-3xl lg:text-3xl text-black mb-9 max-lg:text-center relative">
                   Welcome to The Asthetik
                 </h2>
-                <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl mx-auto">
+                <p className="font-normal text-xl leading-8 text-gray-500 max-lg:text-center max-w-2xl  mx-auto">
                   Embark on a personalized journey towards your beauty goals
                   with The Ästhetik, where we recognize the uniqueness of each
-                  individual&rsquo;s needs and concerns. Our commitment is to listen,
-                  understand, and tailor a treatment plan exclusively for you.
-                  From the initial consultation to dedicated aftercare, we
-                  provide assistance and guidance throughout the entire process.
+                  individual&rsquo;s needs and concerns. Our commitment is to
+                  listen, understand, and tailor a treatment plan exclusively
+                  for you. From the initial consultation to dedicated aftercare,
+                  we provide assistance and guidance throughout the entire
+                  process.
                 </p>
-                <div className="relative   mt-4">
+                <div className="mt-4">
                   <button
                     type="button"
                     className="text-white  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -89,30 +92,38 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* about end */}
 
       <div className=" mt-10 py-12 bg-white">
         <div className="max-w-screen-md mx-auto text-center">
           <h1 className="mb-4 text-3xl font-bold dark:text-white">
             Aesthetic <span className="text-indigo-600">Excellence</span>
           </h1>
-          <h1 className="text-4xl font-bold px-3 mb-2">Botox Treatment</h1>
-          <p className="text-gray-500 dark:text-white">
+          <h1 className="text-3xl sm:text-4xl font-bold  px-3 mb-2">
+            Botox Treatment
+          </h1>
+          <p className="text-gray-500 sm:hidden px-4  dark:text-white">
             ReGlow offers personalized Botox treatments led by Dr. Mohammad
             Hurmatali, focusing on enhancing natural beauty with subtle and
-            natural-looking results. Botox and FDA-approved treatment and softens
-            wrinkles by relaxing facial muscles. Dr. Hurmatali experience
-            ensures precision and individualized care and  helping patients achieve
-            renewed confidence and a youthful appearance.
+            natural-looking results.
+          </p>
+          <p className="text-gray-500 hidden sm:block  dark:text-white">
+            ReGlow offers personalized Botox treatments led by Dr. Mohammad
+            Hurmatali, focusing on enhancing natural beauty with subtle and
+            natural-looking results. Botox and FDA-approved treatment and
+            softens wrinkles by relaxing facial muscles. Dr. Hurmatali
+            experience ensures precision and individualized care and helping
+            patients achieve renewed confidence and a youthful appearance.
           </p>
         </div>
         <div className="flex flex-col justify-center space-y-5 md:flex-row md:space-y-0 md:space-x-6 lg:space-x-10 mt-7 mb-8">
-          <div className=" md:w-5/12">
+          <div className=" md:w-5/12 px-4 sm:px-0">
             <img
               className="rounded-2xl shadow-2xl"
               src="https://www.macare.in/wp-content/uploads/2022/05/botox-2020-01-13-5e1c430703002.jpg"
             />
           </div>
-          <div className=" md:w-5/12">
+          <div className=" md:w-5/12 px-4 sm:px-0">
             <img
               className="rounded-2xl shadow-2xl"
               src="https://cdn-prod.medicalnewstoday.com/content/images/articles/320/320510/botox-injection-botox-vs-fillers.jpg"
@@ -121,7 +132,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" mt-10 py-12 bg-white">
+      <div className="py-12 bg-white">
         <div className="max-w-screen-md mx-auto text-center">
           <h1 className="mb-4 text-3xl font-bold dark:text-white">
             Aesthetic <span className="text-indigo-600">Services</span>
@@ -131,7 +142,7 @@ export default function Home() {
 
       <div className="font-[sans-serif] py-4 mx-auto lg:max-w-6xl max-w-lg md:max-w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 ">
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/Skin-Laser-Treatment.jpg"
@@ -158,7 +169,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/Medical-Grade-Facial.jpg"
@@ -186,7 +197,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/Laser-Hair-Removal.jpg"
@@ -214,7 +225,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/Chemical-Peels.jpg"
@@ -228,10 +239,10 @@ export default function Home() {
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
                 Chemical peels work like scrubs but are way more effective. In
-                chemical peels and a chemical solution is used that exfoliates and
-                retextures the skin by removing the outer layers. Subsequently a
-                new layer of fresh young skin is formed to help against signs of
-                aging.
+                chemical peels and a chemical solution is used that exfoliates
+                and retextures the skin by removing the outer layers.
+                Subsequently a new layer of fresh young skin is formed to help
+                against signs of aging.
               </p>
 
               <button
@@ -243,7 +254,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/Thread-Lift.jpg"
@@ -257,10 +268,10 @@ export default function Home() {
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
                 If you are facing issues like jowls and drooping cheeks but you
-                cannot undergo a facelift surgery (or don&rsquo;t want to), thread
-                lifts are the good news for you. Thread lifts provide better
-                face lift than other noninvasive facial rejuvenation methods but
-                is less of a worry than facelift surgeries.
+                cannot undergo a facelift surgery (or don&rsquo;t want to),
+                thread lifts are the good news for you. Thread lifts provide
+                better face lift than other noninvasive facial rejuvenation
+                methods but is less of a worry than facelift surgeries.
               </p>
 
               <button
@@ -272,7 +283,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/Fillers-Treatment.jpg"
@@ -299,7 +310,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/IV-Vitamin-Therapy.jpg"
@@ -328,7 +339,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/Mesotherapy.jpg"
@@ -356,7 +367,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/PRP-Therapy.jpg"
@@ -385,7 +396,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/HIFU-Treatment.jpg"
@@ -550,8 +561,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-     
     </div>
   );
 }
