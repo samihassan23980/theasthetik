@@ -254,7 +254,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/Thread-Lift.jpg"
@@ -283,7 +283,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/Fillers-Treatment.jpg"
@@ -310,7 +310,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/IV-Vitamin-Therapy.jpg"
@@ -339,7 +339,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className=" hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/Mesotherapy.jpg"
@@ -367,7 +367,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/PRP-Therapy.jpg"
@@ -396,7 +396,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+          <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
                 src="https://theasthetik.com/wp-content/uploads/2023/02/HIFU-Treatment.jpg"
