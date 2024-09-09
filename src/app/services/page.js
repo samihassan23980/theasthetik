@@ -6,7 +6,7 @@ export default function Servics() {
           <div>
             <h2 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Bringing Beauty and
-              <span className="text-blue-600">Wellness Together</span>
+              <span className="text-blue-600"> Wellness Together</span>
             </h2>
             <p className="text-gray-600 mt-6  leading-relaxed">
               We believe true beauty comes from within. Our clinic offers a

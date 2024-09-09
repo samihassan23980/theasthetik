@@ -177,7 +177,7 @@ export default function Navbar() {
                   >
                     Services
                   </Link>
-                  <div className="absolute shadow-lg invisible group-hover:visible bg-white px-8 py-4  lg:top-7 max-lg:top-8  z-50">
+                  <div className=" absolute shadow-lg invisible md:group-hover:visible bg-white px-8 py-4  lg:top-7 max-lg:top-8  z-50">
                     <div className="grid grid-cols-1  py-8   sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-y-8 gap-x-16 w-max ">
                       <ul className="space-y-4 border-l-4 border-blue-800 ">
                         <li className="rounded px-2">
@@ -291,7 +291,7 @@ export default function Navbar() {
                   >
                     Mental Asthetik
                   </Link>
-                  <div className="absolute shadow-lg invisible group-hover:visible bg-white px-8 py-4  lg:top-7 max-lg:top-8  z-50">
+                  <div className="absolute shadow-lg invisible md:group-hover:visible bg-white px-8 py-4  lg:top-7 max-lg:top-8  z-50">
                     <div className="grid grid-cols-1  py-8   sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-y-8 gap-x-16 w-max ">
                       <ul className="space-y-4 border-l-4 border-blue-800 ">
                         <li className="rounded px-2">
