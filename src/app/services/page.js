@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Servics() {
   return (
     <div className="bg-white">
@@ -65,20 +67,21 @@ export default function Servics() {
             </div>
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Laser Treatments
+                Skin Laser Treatments
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
                 Skin laser treatments are effective to fight signs of aging like
                 wrinkles and fine lines on the facial skin. It is also helpful
                 in treating the loss of skin tone by improving your complexion.
               </p>
-
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/services/skin-laser-treatment">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -100,13 +103,14 @@ export default function Servics() {
                 medical grade facial will enhance your skin health with a long
                 lasting than a spa facial would promise.
               </p>
-
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/services/medical-grade-facial">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -128,13 +132,14 @@ export default function Servics() {
                 removal is the most common cosmetic procedure which uses
                 advanced laser technology to destroy hair in targeted areas.
               </p>
-
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/services/laser-hair-removal">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -157,13 +162,14 @@ export default function Servics() {
                 Subsequently a new layer of fresh young skin is formed to help
                 against signs of aging.
               </p>
-
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/services/chemical-peels">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -186,13 +192,14 @@ export default function Servics() {
                 better face lift than other noninvasive facial rejuvenation
                 methods but is less of a worry than facelift surgeries.
               </p>
-
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -213,13 +220,14 @@ export default function Servics() {
                 non-surgical cosmetic procedures. Dermal fillers plump up
                 wrinkles, smooth lines and restore volume in your face.
               </p>
-
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -242,13 +250,14 @@ export default function Servics() {
                 are injected into the bloodstream directly, for increased fast
                 benefits.
               </p>
-
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -270,13 +279,14 @@ export default function Servics() {
                 without the pain, expense and recovery time associated to
                 liposuction.
               </p>
-
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -299,13 +309,14 @@ export default function Servics() {
                 therapy) is among the most effective types of hair restoration
                 treatments.
               </p>
-
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -327,13 +338,14 @@ export default function Servics() {
                 going for HIFU considering it a noninvasive and painless
                 replacement for face lifts.
               </p>
-
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
         </div>
