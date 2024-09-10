@@ -1,16 +1,16 @@
-export default function About(){
-    return(
-    <div>
- <div className="font-sans">
+export default function About() {
+  return (
+    <div className="bg-white">
+      <div className="font-sans ">
         <div className="grid pt-44  lg:grid-cols-2 items-center lg:gap-y-6 bg-blue-500">
           <div className="max-lg:order-1 max-lg:text-center sm:p-12 p-4">
             <h2 className="text-gray-800 lg:text-5xl text-3xl font-bold lg:!leading-[56px]">
-              Elevate Your Experience with Modern Elegance
+              You deserve to regain and maintain your youthfulness
             </h2>
             <p className="text-gray-800 mt-6 text-base leading-relaxed">
-              Laboris qui Lorem ad tempor ut reprehenderit. Nostrud anim nulla officia
-              ea sit deserunt. Eu eu quis anim aute Laboris qui Lorem ad tempor ut
-              reprehenderit.
+              As we passionately pursue our mission to deliver the best
+              aesthetic services in Karachi through affordable and customizable
+              packages.{" "}
             </p>
             <button
               type="button"
@@ -19,7 +19,6 @@ export default function About(){
               Get Started
             </button>
           </div>
-  
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6 px-4 my-12">
           <div className="bg-gray-100 p-6 rounded-md">
@@ -38,7 +37,9 @@ export default function About(){
                 data-original="#000000"
               />
             </svg>
-            <h3 className="text-lg font-bold mb-2 text-gray-800">Customization</h3>
+            <h3 className="text-lg font-bold mb-2 text-gray-800">
+              Customization
+            </h3>
             <p className="text-sm text-gray-600">
               Tailor our product to suit your needs.
             </p>
@@ -94,7 +95,9 @@ export default function About(){
                 />
               </g>
             </svg>
-            <h3 className="text-lg font-bold mb-2 text-gray-800">Performance</h3>
+            <h3 className="text-lg font-bold mb-2 text-gray-800">
+              Performance
+            </h3>
             <p className="text-sm text-gray-600">
               Experience blazing-fast performance with our product.
             </p>
@@ -150,7 +153,63 @@ export default function About(){
           </div>
         </div>
       </div>
+      <div className="font-[sans-serif] bg-white mt-5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 gap-x-12">
+            <div className="text-right">
+              <img
+                src="https://readymadeui.com/photo.webp"
+                alt=""
+                className="inline rounded-lg lg:w-10/12 w-full object-cover"
+              />
+            </div>
+            <div>
+              <h2 className="text-[#333] text-4xl font-extrabold mb-6">
+                Welcome to The Ästhetik
+              </h2>
+              <p className="text-base text-gray-500 mb-4">
+                In a clutter of inefficient and risky options, The Ästhetik is a
+                sigh of relief for Karachiites seeking the best aesthetic
+                treatment.
+              </p>
+              <p className="text-base text-gray-500 mt-2">
+                Embark on a personalized journey towards your beauty goals with
+                The Ästhetik, where we recognize the uniqueness of each
+                individual’s needs and concerns. Our commitment is to listen,
+                understand, and tailor a treatment plan exclusively for you.
+                From the initial consultation to dedicated aftercare, we provide
+                assistance and guidance throughout the entire process.
+              </p>
+              <p className="text-base text-gray-500 mt-2">
+                Meet the distinguished Dr. Samina , a seasoned General Surgeon
+                with a remarkable 15-year journey in the field. Boasting
+                qualifications such as MBBS, FCPS, and a PGPN from Boston, she
+                is a certified member of the American Academy of Aesthetic
+                Medicine (AAAM). Dr. Samina Habib specializes in aesthetic
+                medicine and practices at the esteemed South City Hospital in
+                Karachi.
+              </p>
+              <p className="text-base text-gray-500 mt-2">
+                Step into the captivating realm of beauty at The Ästhetik,
+                located in the vibrant DHA Shahbaz commercial area. As the
+                epitome of expertise and innovation, The Ästhetik offers an
+                array of sought-after services, including Hydra Facial, Laser
+                Hair Removal, HIFU (High-Intensity Focused Ultrasound), PRP
+                (Platelet-Rich Plasma), and more. Schedule a consultation today
+                and discover how The Ästhetik, under the care of Dr. Samina ,
+                can help you achieve your unique beauty goals.
+              </p>
+             
+              <a
+                href="javascript:void(0);"
+                className="inline-block mt-6 px-6 py-2.5 bg-green-500 text-white text-base font-medium rounded-md hover:bg-green-600"
+              >
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-   
-      )
+  );
 }

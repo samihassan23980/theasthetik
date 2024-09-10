@@ -181,9 +181,12 @@ export default function BodyContouring() {
               the transformative power of our body contouring treatments and
               witness the beauty of non-surgical body transformation.
             </p>
-            <h3 className="text-gray-600 leading-relaxed text-base font-bold mt-2">Remember, Dr. Samina Habib and The Asthetik hold the key to unlocking your naturally contoured, confident you. Let us guide you on your journey to a body</h3>
+            <h3 className="text-gray-600 leading-relaxed text-base font-bold mt-2">
+              Remember, Dr. Samina Habib and The Asthetik hold the key to
+              unlocking your naturally contoured, confident you. Let us guide
+              you on your journey to a body
+            </h3>
           </div>
-        
         </div>
       </div>
     </div>
