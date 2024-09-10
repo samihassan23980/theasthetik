@@ -33,6 +33,110 @@ export default function Thread_lifts() {
           </div>
         </div>
       </div>
+      <div className="font-[sans-serif]">
+        <div className="container mx-auto p-8">
+          <div className="bg-white p-8 rounded shadow-md">
+            <h2 className="text-black text-2xl font-bold mb-4">
+              Rejuvenate Without the Drama: Discover Thread Lifts with Dr.
+              Samina Habib in Karachi
+            </h2>
+            <p className="text-gray-600 leading-relaxed text-base">
+              Facing jowls and drooping cheeks but hesitant about a facelift?
+              Worry not, Karachi! Thread lifts offer a revolutionary
+              alternative, delivering dramatic results with minimal downtime and
+              worry.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="font-[sans-serif]">
+        <div className="container mx-auto p-8">
+          <div className="bg-white p-8 rounded shadow-md">
+            <h2 className="text-black text-2xl font-bold mb-4">
+              What are Thread Lifts?
+            </h2>
+            <p className="text-gray-600 leading-relaxed text-base">
+              Imagine a facelift without the scalpel – that’s the magic of
+              thread lifts. This minimally-invasive procedure uses fine, barbed
+              sutures to gently lift and tighten sagging skin, providing a
+              natural, youthful look. Unlike surgery, thread lifts reposition
+              and support your existing skin, avoiding tissue removal and
+              offering a subtle yet noticeable lift.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="font-[sans-serif]">
+        <div className="container mx-auto p-8">
+          <div className="bg-white p-8 rounded shadow-md">
+            <h2 className="text-black text-2xl font-bold mb-4">
+              Why Choose Thread Lifts over Facelift Surgery in Pakistan?
+            </h2>
+            <ul className="list-disc mt-4 space-y-2 pl-4">
+              <li className="text-sm">
+                Reduced Recovery Time: Quick resumption of activities within
+                days with minimal discomfort.
+              </li>
+              <li className="text-sm">
+                Low Risk: As a non-surgical procedure, thread lifts carry
+                significantly lower risks compared to traditional facelifts.
+              </li>
+              <li className="text-sm">
+                Enhanced Collagen Production: Thread lifts stimulate collagen
+                production for long-lasting improvement in skin tone and
+                elasticity.
+              </li>
+              <li className="text-sm">
+                Combination Potential: Integrates seamlessly with fillers and
+                Botox for comprehensive facial rejuvenation.
+              </li>
+              <li className="text-sm">
+                Convenience and Expertise: Located in DHA, Karachi, Dr. Samina
+                Habib leads a team dedicated to personalized care and advanced
+                techniques.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="font-[sans-serif]">
+        <div className="container mx-auto p-8">
+          <div className="bg-white p-8 rounded shadow-md">
+            <h2 className="text-black text-2xl font-bold mb-4">
+              More than just a Lift:
+            </h2>
+            <p className="text-gray-600 leading-relaxed text-base">
+              Beyond immediate tightening, the sutures stimulate collagen
+              production, enhancing skin texture, elasticity, and overall
+              vitality.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="font-[sans-serif]">
+        <div className="container mx-auto p-8">
+          <div className="bg-white p-8 rounded shadow-md">
+            <h2 className="text-black text-2xl font-bold mb-4">
+              Ready to Embrace Your Naturally Youthful You?
+            </h2>
+            <p className="text-gray-600 leading-relaxed text-base">
+              Book your consultation with Dr. Samina Habib at The Asthetik and
+              discover the transformative power of thread lifts. Reclaim your
+              confidence and radiate a youthful glow without the drama of
+              surgery.
+            </p>
+            <p className="text-gray-600 leading-relaxed text-base">
+              Remember, Dr. Samina Habib and The Asthetik have the key to
+              unlocking your naturally youthful you. Let us guide you on your
+              journey to a lifted, glowing, and confident you.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

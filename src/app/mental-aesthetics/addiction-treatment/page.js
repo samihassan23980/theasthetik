@@ -51,14 +51,7 @@ export default function AddictionTreatment() {
               nisi ut Ut enim ad minim veniam, quis nostrud exercitation ullamco
               laboris nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div className="mt-4">
-              <a
-                href="javascript:void(0);"
-                className="text-blue-500 font-semibold hover:underline text-base"
-              >
-                Read more...
-              </a>
-            </div>
+          
           </div>
         </div>
       </div>

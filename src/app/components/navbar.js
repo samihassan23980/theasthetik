@@ -297,92 +297,92 @@ export default function Navbar() {
                   >
                     Mental Asthetik
                   </Link>
-                  <div className="absolute shadow-lg invisible md:group-hover:visible bg-white px-8 py-4  lg:top-7 max-lg:top-8  z-50">
+                  <div className="absolute shadow-lg invisible md:group-hover:visible bg-white px-8 py-4  lg:top-5 max-lg:top-8  z-50">
                     <div className="grid grid-cols-1  py-8   sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-y-8 gap-x-16 w-max ">
                       <ul className="space-y-4 border-l-4 border-blue-800 ">
                         <li className="rounded px-2">
-                          <a
-                            href="javascript:void(0)"
+                          <Link
+                            href="/mental-aesthetics/codependency"
                             className=" text-black  block"
                           >
                             Codependency
-                          </a>
+                          </Link>
                         </li>
                         <li className="rounded px-2">
-                          <a
-                            href="javascript:void(0) px-2"
+                          <Link
+                            href="/mental-aesthetics/narcissism"
                             className=" text-black  block"
                           >
                             Narcissism
-                          </a>
+                          </Link>
                         </li>
                         <li className="rounded px-2">
-                          <a
-                            href="javascript:void(0)"
+                          <Link
+                            href="/mental-aesthetics/depression"
                             className=" text-black  block"
                           >
                             Depression
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                       <ul className="space-y-4 border-l-4  border-blue-800">
                         <li className="rounded px-2">
-                          <a
-                            href="javascript:void(0)"
+                          <Link
+                            href="/mental-aesthetics/post-infidelity-stress-disorder"
                             className=" text-black  block"
                           >
                             PTSD
-                          </a>
+                          </Link>
                         </li>
                         <li className="rounded px-2">
-                          <a
-                            href="javascript:void(0) px-2"
+                          <Link
+                            href="/mental-aesthetics/childhood-abuse"
                             className=" text-black  block"
                           >
                             Childhood abuse
-                          </a>
+                          </Link>
                         </li>
                         <li className="rounded px-2">
-                          <a
-                            href="javascript:void(0)"
+                          <Link
+                            href="/mental-aesthetics/dissociation"
                             className=" text-black  block"
                           >
                             Dissociation
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                       <ul className="space-y-4 border-l-4 border-blue-800 ">
                         <li className="rounded px-2">
-                          <a
-                            href="javascript:void(0)"
+                          <Link
+                            href="/mental-aesthetics/communication"
                             className=" text-black  block"
                           >
                             Communication
-                          </a>
+                          </Link>
                         </li>
                         <li className="rounded px-2">
-                          <a
-                            href="javascript:void(0) px-2"
+                          <Link
+                            href="/mental-aesthetics/difficult-conversation"
                             className=" text-black  block"
                           >
                             Difficult conversation
-                          </a>
+                          </Link>
                         </li>
                         <li className="rounded px-2">
-                          <a
-                            href="javascript:void(0)"
+                          <Link
+                            href="/mental-aesthetics/emotional-Intelligence"
                             className=" text-black  block"
                           >
                             Emotional Intelligence
-                          </a>
+                          </Link>
                         </li>
                         <li className="rounded px-2">
-                          <a
-                            href="javascript:void(0)"
+                          <Link
+                            href="/mental-aesthetics/addiction-treatment"
                             className=" text-black block"
                           >
                             Addiction treatment
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
