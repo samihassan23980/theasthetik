@@ -1,5 +1,6 @@
 import Image from "next/image";
 import imageLogo from "/public/logo.png";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -132,6 +133,7 @@ export default function Home() {
         </div>
       </div>
 
+      {/* athestic service */}
       <div className="py-12 bg-white">
         <div className="max-w-screen-md mx-auto text-center">
           <h1 className="mb-4 text-3xl font-bold dark:text-white">
@@ -139,7 +141,6 @@ export default function Home() {
           </h1>
         </div>
       </div>
-
       <div className="font-[sans-serif] py-4 mx-auto lg:max-w-6xl max-w-lg md:max-w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 ">
           <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
@@ -159,13 +160,14 @@ export default function Home() {
                 wrinkles and fine lines on the facial skin. It is also helpful
                 in treating the loss of skin tone by improving your complexion.
               </p>
-
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/services/skin-laser-treatment">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -188,12 +190,14 @@ export default function Home() {
                 lasting than a spa facial would promise.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/services/medical-grade-facial">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -216,12 +220,14 @@ export default function Home() {
                 advanced laser technology to destroy hair in targeted areas.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/services/laser-hair-removal">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -245,12 +251,14 @@ export default function Home() {
                 against signs of aging.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/services/chemical-peels">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -274,12 +282,14 @@ export default function Home() {
                 methods but is less of a worry than facelift surgeries.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/services//services/thread-lifts">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -301,12 +311,14 @@ export default function Home() {
                 wrinkles, smooth lines and restore volume in your face.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/services//services/fillers-treatment">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -330,12 +342,14 @@ export default function Home() {
                 benefits.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/services//services/iv-vitamin-therapy">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -358,12 +372,14 @@ export default function Home() {
                 liposuction.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/services/mesotherapy">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -387,12 +403,14 @@ export default function Home() {
                 treatments.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/services/prp-treatment">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -415,17 +433,21 @@ export default function Home() {
                 replacement for face lifts.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/services/hifu-treatment">
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
         </div>
       </div>
+      {/* athestic service */}
 
+      {/* contact us */}
       <div className="font-[sans-serif] max-w-6xl mx-auto p-4 mt-4">
         <div className="bg-white  p-8">
           <h2 className="text-3xl text-gray-800 font-extrabold text-center mb-12">
@@ -561,6 +583,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* contact us */}
     </div>
   );
 }

@@ -192,7 +192,7 @@ export default function Servics() {
                 better face lift than other noninvasive facial rejuvenation
                 methods but is less of a worry than facelift surgeries.
               </p>
-              <Link href="">
+              <Link href="/services/thread-lifts">
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
@@ -220,7 +220,7 @@ export default function Servics() {
                 non-surgical cosmetic procedures. Dermal fillers plump up
                 wrinkles, smooth lines and restore volume in your face.
               </p>
-              <Link href="">
+              <Link href="/services/fillers-treatment">
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
@@ -250,7 +250,7 @@ export default function Servics() {
                 are injected into the bloodstream directly, for increased fast
                 benefits.
               </p>
-              <Link href="">
+              <Link href="/services/iv-vitamin-therapy">
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
@@ -279,7 +279,7 @@ export default function Servics() {
                 without the pain, expense and recovery time associated to
                 liposuction.
               </p>
-              <Link href="">
+              <Link href="/services/mesotherapy">
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
@@ -309,7 +309,7 @@ export default function Servics() {
                 therapy) is among the most effective types of hair restoration
                 treatments.
               </p>
-              <Link href="">
+              <Link href="/services/prp-treatment">
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
@@ -338,7 +338,7 @@ export default function Servics() {
                 going for HIFU considering it a noninvasive and painless
                 replacement for face lifts.
               </p>
-              <Link href="">
+              <Link href="/services/hifu-treatment">
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
