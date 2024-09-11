@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div className="bg-white">
       {" "}
-      <div className="font-[sans-serif] max-w-6xl mx-auto relative  pt-48  bg-white rounded-lg py-6">
+      <div className="font-[sans-serif] max-w-6xl mx-auto relative pt-28 sm:pt-48 md:pt-48 lg:pt-48  bg-white rounded-lg py-6">
         <div className="grid lg:grid-cols-3 items-center">
           <div className="grid sm:grid-cols-2 gap-4 z-19 relative lg:left-16 max-lg:px-4">
             <div className="flex flex-col items-center justify-center rounded-lg w-full h-44 p-4 text-center bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)]">

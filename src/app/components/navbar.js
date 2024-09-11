@@ -114,6 +114,7 @@ export default function Navbar() {
         <nav className="fixed  z-20 md:top-16 lg:top-16 w-full bg-white border-gray-200 dark:bg-gray-900">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <Link
+              onClick={() => setToggle(!toggle)}
               href="/"
               className="flex items-center space-x-3 rtl:space-x-reverse"
             >
