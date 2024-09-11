@@ -16,7 +16,7 @@ export default function laser_hair_removal() {
               day.
             </p>
 
-            <div className="mt-12 flex gap-x-6 gap-y-4 justify-center max-sm:flex-col">
+            <div className="mt-12 flex gap-x-6 gap-y-4 justify-center ">
               <button
                 type="button"
                 className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border border-blue-600 transition-all text-white font-bold text-sm rounded px-6 py-3"

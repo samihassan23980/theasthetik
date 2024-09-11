@@ -16,7 +16,7 @@ export default function iv_vitamin_therapy() {
               Rejuvenate your body from the inside out and feel the difference.
             </p>
 
-            <div className="mt-12 flex gap-x-6 gap-y-4 justify-center max-sm:flex-col">
+            <div className="mt-12 flex gap-x-6 gap-y-4 justify-center ">
               <button
                 type="button"
                 className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border border-blue-600 transition-all text-white font-bold text-sm rounded px-6 py-3"
