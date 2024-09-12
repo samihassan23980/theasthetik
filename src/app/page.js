@@ -24,18 +24,23 @@ export default function Home() {
                   provided here using state-of-the-art equipmet is up the mark.
                 </p>
                 <div className="relative flex justify-around sm:justify-normal sm:flex-row sm:space-x-4">
+                 
+                 <Link href="/about-us">
                   <button
                     type="button"
                     className="text-white  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
                     Read More
-                  </button>
+                  </button></Link>
+                  <Link href="/contact">
+                 
                   <button
                     type="button"
                     className="text-white  bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-6 py-4 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
                   >
                     APPOINTMENT
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
