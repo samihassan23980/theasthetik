@@ -47,7 +47,7 @@ export default function MentalAesthetics() {
           <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/Skin-Laser-Treatment.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fcodependency.webp?alt=media&token=9a91491a-b294-48f2-8421-82f80f0bbd51"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -74,7 +74,7 @@ export default function MentalAesthetics() {
           <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/Medical-Grade-Facial.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2FNARCASSIM.webp?alt=media&token=d0b518ef-7a95-49d9-b295-025d2a5616be"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -101,7 +101,7 @@ export default function MentalAesthetics() {
           <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/Laser-Hair-Removal.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fdepression.webp?alt=media&token=dd8f1c5a-1e6a-4056-afa7-ad5aa7dbe6b4"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -127,7 +127,7 @@ export default function MentalAesthetics() {
           <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/Chemical-Peels.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fchild%20abuse.webp?alt=media&token=15fc84dc-20f9-4d1a-ad54-053eaadb43f8"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -154,7 +154,7 @@ export default function MentalAesthetics() {
           <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/Thread-Lift.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fdissociation.webp?alt=media&token=ec702784-e04e-4feb-834b-02f53a1bb6a9"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -181,7 +181,7 @@ export default function MentalAesthetics() {
           <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/Fillers-Treatment.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fcommunication.webp?alt=media&token=3ad2d0f7-ba7f-409d-8d45-571cba53329c"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -208,7 +208,7 @@ export default function MentalAesthetics() {
           <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/IV-Vitamin-Therapy.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fdifficult%20conversations.webp?alt=media&token=ece774f2-726d-4de3-b777-e38fc8f25903"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -234,7 +234,7 @@ export default function MentalAesthetics() {
           <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/Mesotherapy.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Femotions%20inteligence.webp?alt=media&token=c437722a-ed92-494b-b521-b4828f0f7fc9"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -261,7 +261,7 @@ export default function MentalAesthetics() {
           <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/PRP-Therapy.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Faddiction%20treatmrnt.webp?alt=media&token=daa8f285-87ac-4c6e-9057-f43c6edb5ce6"
                 alt="Product 1"
                 className="h-full w-full object-cover"
               />
@@ -287,14 +287,14 @@ export default function MentalAesthetics() {
           <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/HIFU-Treatment.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fptsd.webp?alt=media&token=12833bc7-a494-45cd-a6a0-519aa89b5de6"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
             </div>
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                HIFU Treatment
+              PISD
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
                 High Intensity Focused Ultrasound (HIFU) is a relatively new and
