@@ -54,12 +54,12 @@ export default function MentalAesthetics() {
             </div>
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Laser Treatments
+                Codependency
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
-                Skin laser treatments are effective to fight signs of aging like
-                wrinkles and fine lines on the facial skin. It is also helpful
-                in treating the loss of skin tone by improving your complexion.
+                A treatment focused on helping individuals regain autonomy,
+                address unhealthy relationship dynamics, and build healthier
+                connections with others.
               </p>
 
               <button
@@ -81,13 +81,12 @@ export default function MentalAesthetics() {
             </div>
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Medical Grade Facial
+                Narcissism
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
-                A medical grade facial can help you with your active skin
-                concerns and can also protect you from future skin issues. A
-                medical grade facial will enhance your skin health with a long
-                lasting than a spa facial would promise.
+                A therapeutic approach to manage narcissistic tendencies,
+                fostering self-awareness, empathy, and healthier interpersonal
+                relationships.
               </p>
 
               <button
@@ -109,13 +108,11 @@ export default function MentalAesthetics() {
             </div>
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Laser Hair Removal
+                Depression
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
-                Laser hair removal is the option if you are tired of shaving,
-                tweezing or waxing for removal of unwanted hair. Laser hair
-                removal is the most common cosmetic procedure which uses
-                advanced laser technology to destroy hair in targeted areas.
+                Specialized treatment aimed at managing symptoms of depression,
+                improving mood, and enhancing overall well-being.
               </p>
 
               <button
@@ -137,14 +134,12 @@ export default function MentalAesthetics() {
             </div>
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Chemical Peels
+                Childhood Abuse
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
-                Chemical peels work like scrubs but are way more effective. In
-                chemical peels, a chemical solution is used that exfoliates and
-                retextures the skin by removing the outer layers. Subsequently a
-                new layer of fresh young skin is formed to help against signs of
-                aging.
+                A compassionate therapy to address the long-term emotional
+                impacts of childhood abuse, helping individuals heal and reclaim
+                their sense of self.
               </p>
 
               <button
@@ -166,14 +161,12 @@ export default function MentalAesthetics() {
             </div>
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Thread Lifts
+                Dissociation
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
-                If you are facing issues like jowls and drooping cheeks but you
-                cannot undergo a facelift surgery (or don’t want to), thread
-                lifts are the good news for you. Thread lifts provide better
-                face lift than other noninvasive facial rejuvenation methods but
-                is less of a worry than facelift surgeries.
+                Treatment to help individuals ground themselves, improve
+                awareness, and reconnect with their thoughts, emotions, and
+                surroundings.
               </p>
 
               <button
@@ -195,12 +188,12 @@ export default function MentalAesthetics() {
             </div>
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Fillers Treatment
+                Communication
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
-                Fillers injections, commonly known as dermal fillers, are among
-                non-surgical cosmetic procedures. Dermal fillers plump up
-                wrinkles, smooth lines and restore volume in your face.
+                Therapeutic sessions designed to improve communication skills,
+                ensuring clarity, understanding, and effective interpersonal
+                interactions.
               </p>
 
               <button
@@ -222,14 +215,11 @@ export default function MentalAesthetics() {
             </div>
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                IV Vitamin Therapy
+                Difficult Conversations
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
-                IV vitamin therapy with many other benefits; detoxifies the
-                body, boosts immune system and delivers a natural glow to the
-                skin. It allows high absorption of vitamins and minerals that
-                are injected into the bloodstream directly, for increased fast
-                benefits.
+                Guidance on how to navigate challenging conversations with
+                confidence and empathy, fostering healthier relationships.
               </p>
 
               <button
@@ -251,13 +241,12 @@ export default function MentalAesthetics() {
             </div>
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Mesotherapy
+                Emotional Intelligence
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
-                Mesotherapy is a promising way to remove unwanted fat and shape
-                up the body. It provides results similar to a liposuction
-                without the pain, expense and recovery time associated to
-                liposuction.
+                Therapy focused on enhancing emotional awareness,
+                self-regulation, and empathy, leading to better emotional and
+                social functioning.
               </p>
 
               <button
@@ -279,14 +268,11 @@ export default function MentalAesthetics() {
             </div>
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                PRP Treatment
+                Addiction Treatment
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
-                Platelet-Rich Plasma (PRP) is a type of regenerative medicine
-                that promotes body healing and is used for a range of medical
-                conditions, from hair loss to joint pain. PRP treatment (or PRP
-                therapy) is among the most effective types of hair restoration
-                treatments.
+                Comprehensive support and therapy for overcoming addiction,
+                building coping strategies, and leading a substance-free life.
               </p>
 
               <button
