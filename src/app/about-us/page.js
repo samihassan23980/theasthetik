@@ -38,10 +38,11 @@ export default function About() {
               />
             </svg>
             <h3 className="text-lg font-bold mb-2 text-gray-800">
-              Customization
+              Personalized Care
             </h3>
             <p className="text-sm text-gray-600">
-              Tailor our product to suit your needs.
+              Receive tailored mental aesthetics treatments designed
+              specifically for your individual needs.
             </p>
             <a
               href="javascript:void(0);"
@@ -62,9 +63,12 @@ export default function About() {
                 data-original="#000000"
               />
             </svg>
-            <h3 className="text-lg font-bold mb-2 text-gray-800">Support</h3>
+            <h3 className="text-lg font-bold mb-2 text-gray-800">
+              24/7 Support
+            </h3>
             <p className="text-sm text-gray-600">
-              24/7 customer support for all your inquiries.
+              We provide round-the-clock support to ensure your mental
+              well-being is our priority.
             </p>
             <a
               href="javascript:void(0);"
@@ -96,10 +100,11 @@ export default function About() {
               </g>
             </svg>
             <h3 className="text-lg font-bold mb-2 text-gray-800">
-              Performance
+              Holistic Approach
             </h3>
             <p className="text-sm text-gray-600">
-              Experience blazing-fast performance with our product.
+              Achieve mental clarity and emotional balance with our
+              comprehensive, holistic treatments.
             </p>
             <a
               href="javascript:void(0);"
@@ -140,9 +145,12 @@ export default function About() {
                 />
               </g>
             </svg>
-            <h3 className="text-lg font-bold mb-2 text-gray-800">Security</h3>
+            <h3 className="text-lg font-bold mb-2 text-gray-800">
+              Confidentiality
+            </h3>
             <p className="text-sm text-gray-600">
-              Your data is protected by the latest security measures.
+              Your privacy and confidentiality are safeguarded with the latest
+              protection measures.
             </p>
             <a
               href="javascript:void(0);"
@@ -158,7 +166,7 @@ export default function About() {
           <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 gap-x-12">
             <div className="text-right">
               <img
-                src="https://readymadeui.com/photo.webp"
+                src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
                 className="inline rounded-lg lg:w-10/12 w-full object-cover"
               />
@@ -199,7 +207,7 @@ export default function About() {
                 and discover how The Ästhetik, under the care of Dr. Samina ,
                 can help you achieve your unique beauty goals.
               </p>
-             
+
               <a
                 href="javascript:void(0);"
                 className="inline-block mt-6 px-6 py-2.5 bg-green-500 text-white text-base font-medium rounded-md hover:bg-green-600"
