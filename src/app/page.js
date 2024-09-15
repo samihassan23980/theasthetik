@@ -24,22 +24,21 @@ export default function Home() {
                   provided here using state-of-the-art equipmet is up the mark.
                 </p>
                 <div className="relative flex justify-around sm:justify-normal sm:flex-row sm:space-x-4">
-                 
-                 <Link href="/about-us">
-                  <button
-                    type="button"
-                    className="text-white  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                  >
-                    Read More
-                  </button></Link>
+                  <Link href="/about-us">
+                    <button
+                      type="button"
+                      className="text-white  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >
+                      Read More
+                    </button>
+                  </Link>
                   <Link href="/contact">
-                 
-                  <button
-                    type="button"
-                    className="text-white  bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-6 py-4 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
-                  >
-                    APPOINTMENT
-                  </button>
+                    <button
+                      type="button"
+                      className="text-white  bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-6 py-4 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+                    >
+                      APPOINTMENT
+                    </button>
                   </Link>
                 </div>
               </div>
@@ -126,13 +125,13 @@ export default function Home() {
           <div className=" md:w-5/12 px-4 sm:px-0">
             <img
               className="rounded-2xl shadow-2xl"
-              src="https://www.macare.in/wp-content/uploads/2022/05/botox-2020-01-13-5e1c430703002.jpg"
+              src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FBotox-Treatment-1.webp?alt=media&token=b0732bc0-4b90-4420-b8f1-477bf7b13ba4"
             />
           </div>
           <div className=" md:w-5/12 px-4 sm:px-0">
             <img
               className="rounded-2xl shadow-2xl"
-              src="https://cdn-prod.medicalnewstoday.com/content/images/articles/320/320510/botox-injection-botox-vs-fillers.jpg"
+              src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2Fbotox-injection-botox-vs-fillers.webp?alt=media&token=45444854-fd69-42d9-b598-4e3bb6e2f67b"
             />
           </div>
         </div>
@@ -151,7 +150,7 @@ export default function Home() {
           <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/Skin-Laser-Treatment.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FSkin-Laser-Treatment.webp?alt=media&token=f5dbccaf-218f-4fb0-9066-6b1d1597822f"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -179,7 +178,7 @@ export default function Home() {
           <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/Medical-Grade-Facial.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FMedical-Grade-Facial.webp?alt=media&token=fe300098-e7f7-4dbd-b9d8-96d3140656a1"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -209,7 +208,7 @@ export default function Home() {
           <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/Laser-Hair-Removal.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FLaser-Hair-Removal.webp?alt=media&token=575a2154-866b-4c25-95f2-3e761665c019"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -239,7 +238,7 @@ export default function Home() {
           <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/Chemical-Peels.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FChemical-Peels.webp?alt=media&token=386c4e78-6f04-40f0-bb85-d6727e7270f7"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -270,7 +269,7 @@ export default function Home() {
           <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/Thread-Lift.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FThread-Lift.webp?alt=media&token=21585bae-f139-4209-a647-7bd5eb8ae222"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -301,7 +300,7 @@ export default function Home() {
           <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/Fillers-Treatment.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FFillers-Treatment.webp?alt=media&token=cbed129b-2210-4340-b335-09f99d9aa16f"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -330,7 +329,7 @@ export default function Home() {
           <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/IV-Vitamin-Therapy.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FIV-Vitamin-Therapy.webp?alt=media&token=4eaf013e-e60f-4de3-90c9-370438441dd3"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -361,7 +360,7 @@ export default function Home() {
           <div className=" hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/Mesotherapy.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FMesotherapy.webp?alt=media&token=ede7ded3-7572-4b55-98e2-d31ee74bf197"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
@@ -391,7 +390,7 @@ export default function Home() {
           <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/PRP-Therapy.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FPRP-Therapy.webp?alt=media&token=7610276c-e8b2-4514-b314-55f86f0ced0d"
                 alt="Product 1"
                 className="h-full w-full object-cover"
               />
@@ -422,7 +421,7 @@ export default function Home() {
           <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
             <div className="">
               <img
-                src="https://theasthetik.com/wp-content/uploads/2023/02/HIFU-Treatment.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FHIFU-Treatment.webp?alt=media&token=fdfcd1a5-32e7-4228-a6f7-76a6c519e958"
                 alt="Product 1"
                 className="h-full w-full object-contain"
               />
