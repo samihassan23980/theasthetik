@@ -33,6 +33,109 @@ export default function Communication() {
           </div>
         </div>
       </div>
+
+      <div className="font-[sans-serif]">
+  <div className="container mx-auto p-8">
+    <div className="bg-white p-8 rounded shadow-md">
+      <h2 className="text-black text-2xl font-bold mb-4">
+        Strengthen Your Connections: Communication Therapy at The Asthetik Clinic in Karachi
+      </h2>
+      <p className="text-gray-600 leading-relaxed text-base">
+        Effective communication is the foundation of healthy relationships, whether personal or professional. At The Asthetik Clinic in Karachi, we offer specialized therapy to help you enhance your communication skills, express your thoughts with clarity, and build deeper, more meaningful connections.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div className="font-[sans-serif]">
+  <div className="container mx-auto p-8">
+    <div className="bg-white p-8 rounded shadow-md">
+      <h2 className="text-black text-2xl font-bold mb-4">
+        What is Communication Therapy?
+      </h2>
+      <p className="text-gray-600 leading-relaxed text-base">
+        Communication therapy focuses on improving the way you express your thoughts, emotions, and needs. It’s about learning to communicate openly, listening actively, and managing conflicts without escalation.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div className="font-[sans-serif]">
+  <div className="container mx-auto p-8">
+    <div className="bg-white p-8 rounded shadow-md">
+      <h2 className="text-black text-2xl font-bold mb-4">
+        How We Can Help
+      </h2>
+      <ul className="list-disc mt-4 space-y-2 pl-4">
+        <li className="text-sm">
+          <strong>Active Listening:</strong> Learn to truly hear what others are saying, creating space for open and honest dialogue.
+        </li>
+        <li className="text-sm">
+          <strong>Assertive Expression:</strong> Discover how to express your feelings and thoughts confidently without aggression or passivity.
+        </li>
+        <li className="text-sm">
+          <strong>Conflict Resolution:</strong> Develop strategies to handle disagreements or misunderstandings with calmness and empathy, avoiding unnecessary conflict.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div className="font-[sans-serif]">
+  <div className="container mx-auto p-8">
+    <div className="bg-white p-8 rounded shadow-md">
+      <h2 className="text-black text-2xl font-bold mb-4">
+        Benefits That Last
+      </h2>
+      <ul className="list-disc mt-4 space-y-2 pl-4">
+        <li className="text-sm">
+          <strong>Improved Relationships:</strong> Better communication leads to stronger connections, fostering trust and understanding.
+        </li>
+        <li className="text-sm">
+          <strong>Emotional Clarity:</strong> Learn to express your emotions clearly, reducing confusion or frustration in your interactions.
+        </li>
+        <li className="text-sm">
+          <strong>Conflict Prevention:</strong> Resolve conflicts before they escalate, creating more harmonious interactions.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div className="font-[sans-serif]">
+  <div className="container mx-auto p-8">
+    <div className="bg-white p-8 rounded shadow-md">
+      <h2 className="text-black text-2xl font-bold mb-4">
+        Why Choose The Asthetik Clinic?
+      </h2>
+      <ul className="list-disc mt-4 space-y-2 pl-4">
+        <li className="text-sm">
+          <strong>Expert Communication Therapists:</strong> Our therapists specialize in helping individuals develop practical, real-world communication skills.
+        </li>
+        <li className="text-sm">
+          <strong>Personalized Treatment Plans:</strong> Tailored approaches to meet your specific communication challenges and goals.
+        </li>
+        <li className="text-sm">
+          <strong>Safe, Supportive Environment:</strong> A welcoming and non-judgmental space to explore and enhance your communication abilities.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div className="font-[sans-serif]">
+  <div className="container mx-auto p-8">
+    <div className="bg-white p-8 rounded shadow-md">
+      <h2 className="text-black text-2xl font-bold mb-4">
+        Ready to Strengthen Your Communication Skills?
+      </h2>
+      <p className="text-gray-600 leading-relaxed text-base">
+        Book your consultation today and start building stronger connections through effective communication at The Asthetik Clinic in Karachi.
+      </p>
+    </div>
+  </div>
+</div>
+
     </div>
   );
 }

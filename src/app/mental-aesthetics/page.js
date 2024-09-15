@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function MentalAesthetics() {
   return (
     <div className="bg-white ">
@@ -17,18 +19,22 @@ export default function MentalAesthetics() {
             </p>
 
             <div className="mt-12 flex gap-x-6 gap-y-4 justify-center max-sm:flex-col">
-              <button
-                type="button"
-                className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border border-blue-600 transition-all text-white font-bold text-sm rounded px-6 py-3"
-              >
-                Start a free trial
-              </button>
-              <button
-                type="button"
-                className="bg-transparent text-gray-800 hover:bg-gray-800 hover:text-white border border-gray-800 transition-all font-bold text-sm rounded px-6 py-3"
-              >
-                API documentation
-              </button>
+              <Link href="/contact">
+                <button
+                  type="button"
+                  className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border border-blue-600 transition-all text-white font-bold text-sm rounded px-6 py-3"
+                >
+                  APPOINTMENT
+                </button>
+              </Link>
+              <Link href="/about-us">
+                <button
+                  type="button"
+                  className="bg-transparent text-gray-800 hover:bg-gray-800 hover:text-white border border-gray-800 transition-all font-bold text-sm rounded px-6 py-3"
+                >
+                  Read More
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -293,9 +299,7 @@ export default function MentalAesthetics() {
               />
             </div>
             <div className=" bg-gray-100 p-6">
-              <h3 className="text-2xl font-bold mt-2 text-gray-800">
-              PISD
-              </h3>
+              <h3 className="text-2xl font-bold mt-2 text-gray-800">PISD</h3>
               <p className="text-gray-600   mb-4 mt-2">
                 High Intensity Focused Ultrasound (HIFU) is a relatively new and
                 advanced cosmetic treatment best for skin tightening. People are
