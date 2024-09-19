@@ -35,7 +35,12 @@ export default function Navbar() {
               >
                 <path d="M502.3 190.8L327.4 338.3c-23.6 19.5-60.1 19.5-83.7 0L9.7 190.8C3.8 185.8 0 178.2 0 170.2V456c0 30.9 25.1 56 56 56h400c30.9 0 56-25.1 56-56V170.2c0-8-3.8-15.6-9.7-20.6zM256 320c12.5 0 24.9-4.3 34.8-12.9L496 144v-40c0-30.9-25.1-56-56-56H72c-30.9 0-56 25.1-56 56v40l205.2 163.2c9.9 7.8 22.3 12.9 34.8 12.9z" />
               </svg>
-              <a href="mailto:info@yourwebsite.com" >  <span className="text-white text-sm">info@theasthetik.com</span> </a>
+              <a href="mailto:info@yourwebsite.com">
+                {" "}
+                <span className="text-white text-sm">
+                  info@theasthetik.com
+                </span>{" "}
+              </a>
             </div>
           </div>
           <div className=" flex justify-end pr-6 space-x-3 items-center">
@@ -113,10 +118,7 @@ export default function Navbar() {
             </Link>
 
             {/* Whatsapp */}
-            <Link
-              href="https://wa.me/923458222263"
-              target="_blank"
-            >
+            <Link href="https://wa.me/923458222263" target="_blank">
               <div className="h-10 w-10 rounded-full bg-green-500 flex items-center justify-center hover:bg-green-700 transition-colors duration-300">
                 <span className="text-white">
                   <svg
@@ -320,7 +322,7 @@ export default function Navbar() {
                     href="/mental-aesthetics"
                     className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   >
-                    Mental Asthetik
+                    Mental Aesthetics
                   </Link>
                   <div className="absolute shadow-lg invisible md:group-hover:visible bg-white px-8 py-4  lg:top-5 max-lg:top-8  z-50">
                     <div className="grid grid-cols-1  py-8   sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-y-8 gap-x-16 w-max ">

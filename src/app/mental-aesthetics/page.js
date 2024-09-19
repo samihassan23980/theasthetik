@@ -68,12 +68,15 @@ export default function MentalAesthetics() {
                 connections with others.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/mental-aesthetics/codependency">
+                {" "}
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -95,12 +98,15 @@ export default function MentalAesthetics() {
                 relationships.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/mental-aesthetics/narcissism">
+                {" "}
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -121,12 +127,15 @@ export default function MentalAesthetics() {
                 improving mood, and enhancing overall well-being.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/mental-aesthetics/depression">
+                {" "}
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -148,12 +157,15 @@ export default function MentalAesthetics() {
                 their sense of self.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/mental-aesthetics/childhood-abuse">
+                {" "}
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -175,12 +187,15 @@ export default function MentalAesthetics() {
                 surroundings.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/mental-aesthetics/dissociation">
+                {" "}
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -202,12 +217,15 @@ export default function MentalAesthetics() {
                 interactions.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/mental-aesthetics/communication">
+                {" "}
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -221,19 +239,22 @@ export default function MentalAesthetics() {
             </div>
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Difficult Conversations
+                Difficult Conversation
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
                 Guidance on how to navigate challenging conversations with
                 confidence and empathy, fostering healthier relationships.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/mental-aesthetics/difficult-conversation">
+                {" "}
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -255,12 +276,15 @@ export default function MentalAesthetics() {
                 social functioning.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/mental-aesthetics/emotional-Intelligence">
+                {" "}
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -281,12 +305,15 @@ export default function MentalAesthetics() {
                 building coping strategies, and leading a substance-free life.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/mental-aesthetics/addiction-treatment">
+                {" "}
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -299,7 +326,7 @@ export default function MentalAesthetics() {
               />
             </div>
             <div className=" bg-gray-100 p-6">
-              <h3 className="text-2xl font-bold mt-2 text-gray-800">PISD</h3>
+              <h3 className="text-2xl font-bold mt-2 text-gray-800">PTSD</h3>
               <p className="text-gray-600   mb-4 mt-2">
                 High Intensity Focused Ultrasound (HIFU) is a relatively new and
                 advanced cosmetic treatment best for skin tightening. People are
@@ -307,12 +334,15 @@ export default function MentalAesthetics() {
                 replacement for face lifts.
               </p>
 
-              <button
-                type="button"
-                className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-              >
-                More Details
-              </button>
+              <Link href="/mental-aesthetics/Post-traumatic-stress-disorder">
+                {" "}
+                <button
+                  type="button"
+                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
+                >
+                  More Details
+                </button>
+              </Link>
             </div>
           </div>
         </div>

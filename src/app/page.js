@@ -14,7 +14,7 @@ export default function Home() {
                 <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
                   <span className="block xl:inline"> Quest of the Best</span>
                   <span className="block  text-blue-700 lg:inline sm:px-2">
-                    Aesthettic Services
+                    Aesthetic Services
                   </span>
                   <span className="block xl:inline"> Ends Here</span>
                 </h1>
@@ -116,9 +116,9 @@ export default function Home() {
             ReGlow offers personalized Botox treatments led by Dr. Mohammad
             Hurmatali, focusing on enhancing natural beauty with subtle and
             natural-looking results. Botox and FDA-approved treatment and
-            softens wrinkles by relaxing facial muscles. Dr. Hurmatali
-            experience ensures precision and individualized care and helping
-            patients achieve renewed confidence and a youthful appearance.
+            softens wrinkles by relaxing facial muscles. Dr. Samina experience
+            ensures precision and individualized care and helping patients
+            achieve renewed confidence and a youthful appearance.
           </p>
         </div>
         <div className="flex flex-col justify-center space-y-5 md:flex-row md:space-y-0 md:space-x-6 lg:space-x-10 mt-7 mb-8">
@@ -157,7 +157,7 @@ export default function Home() {
             </div>
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Laser Treatments
+                Skin Laser Treatments
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
                 Skin laser treatments are effective to fight signs of aging like
