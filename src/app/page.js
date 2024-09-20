@@ -580,8 +580,11 @@ export default function Home() {
                 />
               </svg>
               <div className="mt-4 text-center">
-                <h4 className="text-gray-800 text-base font-bold">Fax</h4>
-                <p className="text-sm text-gray-500 mt-2">02135240710</p>
+                <h4 className="text-gray-800 text-base font-bold mt-4">
+                  Landline & Fax
+                </h4>
+                <p className="text-sm text-gray-600 mt-2">02135240710</p>
+                <p className="text-sm text-gray-600 mt-2">03032216666</p>
               </div>
             </div>
           </div>

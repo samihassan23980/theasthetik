@@ -239,7 +239,7 @@ export default function MentalAesthetics() {
             </div>
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Difficult Conversation
+                Difficult Conversations
               </h3>
               <p className="text-gray-600   mb-4 mt-2">
                 Guidance on how to navigate challenging conversations with
@@ -328,10 +328,10 @@ export default function MentalAesthetics() {
             <div className=" bg-gray-100 p-6">
               <h3 className="text-2xl font-bold mt-2 text-gray-800">PTSD</h3>
               <p className="text-gray-600   mb-4 mt-2">
-                High Intensity Focused Ultrasound (HIFU) is a relatively new and
-                advanced cosmetic treatment best for skin tightening. People are
-                going for HIFU considering it a noninvasive and painless
-                replacement for face lifts.
+                Post-Traumatic Stress Disorder (PTSD) is a mental health
+                condition that can develop after experiencing or witnessing a
+                traumatic event, such as violence, natural disasters, or serious
+                accidents.
               </p>
 
               <Link href="/mental-aesthetics/Post-traumatic-stress-disorder">

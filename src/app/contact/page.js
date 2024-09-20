@@ -75,8 +75,11 @@ export default function Contact() {
                   data-original="#000000"
                 />
               </svg>
-              <h4 className="text-gray-800 text-base font-bold mt-4">Fax</h4>
+              <h4 className="text-gray-800 text-base font-bold mt-4">
+                Landline & Fax
+              </h4>
               <p className="text-sm text-gray-600 mt-2">02135240710</p>
+              <p className="text-sm text-gray-600 mt-2">03032216666</p>
             </div>
           </div>
           <div className="lg:col-span-2 bg-[#0a4275] rounded-lg sm:p-10 p-4 z-1 max-lg:-order-1 max-lg:mb-8">
