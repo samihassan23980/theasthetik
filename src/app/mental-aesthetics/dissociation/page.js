@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Dissociation() {
   return (
     <div className="bg-white">
@@ -17,12 +19,12 @@ export default function Dissociation() {
             </p>
 
             <div className="mt-12 flex gap-x-6 gap-y-4 justify-center ">
-              <button
+            <Link href="/contact"><button
                 type="button"
                 className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border border-blue-600 transition-all text-white font-bold text-sm rounded px-6 py-3"
               >
                 Get Appointment Today
-              </button>
+              </button></Link> 
               <button
                 type="button"
                 className="bg-transparent text-gray-800 hover:bg-gray-800 hover:text-white border border-gray-800 transition-all font-bold text-sm rounded px-6 py-3"

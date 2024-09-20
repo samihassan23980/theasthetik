@@ -1,4 +1,40 @@
+"use client";
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
+
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phNumber, setPhNumber] = useState("");
+  const [Message, setMessage] = useState();
+
+  const sendEmail = () => {
+    
+
+    const templateParams = {
+      to_name: name,
+      message: Message,
+      to_number: phNumber,
+      from_name: name,
+    };
+
+    emailjs
+      .send("service_yfpoifh", "template_bhsl27u", templateParams, {
+        publicKey: "HdRxsh3fxsUh9jmH0",
+      })
+      .then(
+        (response) => {
+          alert("Send Sucessful")
+          setEmail("")
+          setName("")
+          setMessage("")
+          setPhNumber("")
+        },
+        (err) => {
+          alert("FAILED...");
+        }
+      );
+  };
   return (
     <div className="bg-white">
       {" "}
@@ -90,26 +126,35 @@ export default function Contact() {
               <div className="max-w-md mx-auto space-y-3">
                 <input
                   type="text"
+                  onChange={(e) => setName(e.target.value)}
                   placeholder="Name"
+                  value={name}
                   className="w-full bg-gray-100 rounded-lg py-3 px-6 text-sm outline-none"
                 />
                 <input
+                  onChange={(e) => setEmail(e.target.value)}
                   type="email"
+                  value={email}
                   placeholder="Email"
                   className="w-full bg-gray-100 rounded-lg py-3 px-6 text-sm outline-none"
                 />
                 <input
-                  type="email"
+                  onChange={(e) => setPhNumber(e.target.value)}
+                  type="text"
+                  value={phNumber}
                   placeholder="Phone No."
                   className="w-full bg-gray-100 rounded-lg py-3 px-6 text-sm outline-none"
                 />
                 <textarea
+                  onChange={(e) => setMessage(e.target.value)}
                   placeholder="Message"
+                  value={Message}
                   rows={6}
                   className="w-full bg-gray-100 rounded-lg px-6 text-sm pt-3 outline-none"
                   defaultValue={""}
                 />
                 <button
+                  onClick={sendEmail}
                   type="button"
                   className="text-gray-800 w-full relative bg-yellow-400 hover:bg-yellow-500 font-semibold rounded-lg text-sm px-6 py-3 !mt-6"
                 >

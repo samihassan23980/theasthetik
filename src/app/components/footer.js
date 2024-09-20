@@ -1,12 +1,13 @@
 import Image from "next/image";
 import imageLogo from "/public/logo.png";
+import Link from "next/link";
 export default function Footer() {
   return (
     <footer className="bg-gray-900 p-10 font-[sans-serif] mt-10 tracking-wide">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="lg:flex lg:items-center">
-          <a
-            href="https://flowbite.com/"
+          <Link
+            href="/"
             className="flex items-center space-x-3  rtl:space-x-reverse"
           >
             <Image
@@ -15,12 +16,12 @@ export default function Footer() {
               width={200} // Adjust the width according to the image ratio
               alt="Main Logo"
             />
-          </a>
+          </Link>
         </div>
         <div className="lg:flex lg:items-center">
           <ul className="flex space-x-6">
             <li>
-              <a href="javascript:void(0)">
+              <a href="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="fill-gray-300 hover:fill-white w-7 h-7"
@@ -35,7 +36,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)">
+              <a href="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="fill-gray-300 hover:fill-white w-7 h-7"
@@ -50,7 +51,7 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)">
+              <a href="">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -68,7 +69,7 @@ export default function Footer() {
           <ul className="space-y-4">
             <li>
               <a
-                href="javascript:void(0)"
+                href=""
                 className="text-gray-300 hover:text-white text-sm"
               >
                 Email
@@ -76,7 +77,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href=""
                 className="text-gray-300 hover:text-white text-sm"
               >
                 Phone
@@ -84,7 +85,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href=""
                 className="text-gray-300 hover:text-white text-sm"
               >
                 Address
@@ -96,24 +97,24 @@ export default function Footer() {
           <h4 className="text-lg font-semibold mb-6 text-white">Information</h4>
           <ul className="space-y-4">
             <li>
-              <a
-                href="javascript:void(0)"
+              <Link
+                href="/about-us"
                 className="text-gray-300 hover:text-white text-sm"
               >
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="javascript:void(0)"
+              <Link
+                href="/terms-and-conditions"
                 className="text-gray-300 hover:text-white text-sm"
               >
                 Terms &amp; Conditions
-              </a>
+              </Link>
             </li>
             <li>
               <a
-                href="javascript:void(0)"
+                href=""
                 className="text-gray-300 hover:text-white text-sm"
               >
                 Privacy Policy

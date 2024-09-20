@@ -45,7 +45,7 @@ export default function About() {
               specifically for your individual needs.
             </p>
             <a
-              href="javascript:void(0);"
+              href=";"
               className="text-blue-600 font-bold inline-block text-sm mt-4 hover:underline"
             >
               Learn more
@@ -71,7 +71,7 @@ export default function About() {
               well-being is our priority.
             </p>
             <a
-              href="javascript:void(0);"
+              href=""
               className="text-blue-600 font-bold inline-block text-sm mt-4 hover:underline"
             >
               Learn more
@@ -107,7 +107,7 @@ export default function About() {
               comprehensive, holistic treatments.
             </p>
             <a
-              href="javascript:void(0);"
+              href=""
               className="text-blue-600 font-bold inline-block text-sm mt-4 hover:underline"
             >
               Learn more
@@ -153,7 +153,7 @@ export default function About() {
               protection measures.
             </p>
             <a
-              href="javascript:void(0);"
+              href=""
               className="text-blue-600 font-bold inline-block text-sm mt-4 hover:underline"
             >
               Learn more
@@ -209,7 +209,7 @@ export default function About() {
               </p>
 
               <a
-                href="javascript:void(0);"
+                href=""
                 className="inline-block mt-6 px-6 py-2.5 bg-green-500 text-white text-base font-medium rounded-md hover:bg-green-600"
               >
                 Learn More
