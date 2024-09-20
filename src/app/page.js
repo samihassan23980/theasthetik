@@ -46,7 +46,7 @@ export default function Home() {
             <div className="w-full hidden md:block md:w-1/2">
               <div className="w-full h-auto overflow-hidden rounded-md shadow-2xl sm:rounded-xl transform hover:scale-105 transition-transform duration-500 ease-in-out">
                 <img
-                  src="https://georgedelaneymd.com/wp-content/uploads/2018/10/shutterstock_517359928-e1540313862400.jpg"
+                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/the-ashthetik%2Ftop%20image.webp?alt=media&token=c119ff7f-292f-4253-9ff8-6469ae50af85"
                   alt="Skincare Model"
                   className="shadow-lg hover:shadow-2xl transition-shadow duration-500 ease-in-out"
                 />
@@ -89,7 +89,7 @@ export default function Home() {
             </div>
             <div className="img-box px-20 py-4">
               <img
-                src="https://images.pexels.com/photos/5069587/pexels-photo-5069587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/the-ashthetik%2F2.webp?alt=media&token=9af7bccf-a5d5-446b-9017-aa6b8cd4199c"
                 alt="About Us tailwind page"
                 className=" shadow-2xl"
               />

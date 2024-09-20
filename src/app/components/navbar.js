@@ -8,6 +8,7 @@ export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <>
+    
       <div className="bg-white">
         <div className=" fixed hidden md:grid bg-slate-900  grid-cols-2 z-20 h-16 w-full ">
           {/* Phone and Email Section */}
