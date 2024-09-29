@@ -7,17 +7,16 @@ export default function Skin_laser_treatments() {
         <div className="text-center max-w-2xl max-md:max-w-md mx-auto">
           <div>
             <h2 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
-              Revitalize Naturally:
-              <span className="text-blue-600"> PRP Treatments </span> for
-              Youthful Radiance
+              Unveil Your True Glow with Advanced
+              <span className="text-blue-600"> Skin Laser Treatment! </span>
             </h2>
             <p className="text-gray-600 mt-6  leading-relaxed">
-              Discover the power of Platelet-Rich Plasma (PRP) therapy for
-              rejuvenation and revitalization. Our advanced PRP treatments
-              harness your body&apos;s own healing properties to enhance skin
-              texture, reduce signs of aging, and promote natural healing.
-              Experience a refreshed and youthful appearance with our
-              state-of-the-art techniques tailored to your unique needs.
+              Skin laser treatment is a non-invasive procedure that uses
+              targeted laser technology to address various skin concerns, such
+              as pigmentation, acne scars, wrinkles, and uneven texture. By
+              stimulating collagen production and promoting skin renewal, laser
+              treatments leave your skin looking smoother, clearer, and
+              rejuvenated.
             </p>
 
             <div className="mt-12 flex gap-x-6 gap-y-4 justify-center ">
@@ -135,6 +134,16 @@ export default function Skin_laser_treatments() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="mt-12 flex gap-x-6 gap-y-4 justify-center ">
+        <Link href="/contact">
+          <button
+            type="button"
+            className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border border-blue-600 transition-all text-white font-bold text-sm rounded px-6 py-3"
+          >
+            Get Appointment Today
+          </button>
+        </Link>
       </div>
     </div>
   );

@@ -32,7 +32,7 @@ export default function BodyContouring() {
       </div>
 
       {/* content sections */}
-      <div className="bg-gray-100 font-[sans-serif]">
+      <div className="bg-white font-[sans-serif]">
         <div className="container mx-auto p-8">
           <div className="bg-white p-8 rounded shadow-md">
             <h2 className="text-black text-2xl font-bold mb-4">
@@ -184,6 +184,15 @@ export default function BodyContouring() {
               you on your journey to a body
             </h3>
           </div>
+          <div className="mt-12 flex gap-x-6 gap-y-4 justify-center ">
+            <Link href="/contact"><button
+                type="button"
+                className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border border-blue-600 transition-all text-white font-bold text-sm rounded px-6 py-3"
+              >
+                Get Appointment Today
+              </button></Link> 
+             
+            </div>
         </div>
       </div>
     </div>

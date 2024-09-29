@@ -19,13 +19,14 @@ export default function iv_vitamin_therapy() {
             </p>
 
             <div className="mt-12 flex gap-x-6 gap-y-4 justify-center ">
-            <Link href="/contact"><button
-                type="button"
-                className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border border-blue-600 transition-all text-white font-bold text-sm rounded px-6 py-3"
-              >
-                Get Appointment Today
-              </button></Link> 
-          
+              <Link href="/contact">
+                <button
+                  type="button"
+                  className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border border-blue-600 transition-all text-white font-bold text-sm rounded px-6 py-3"
+                >
+                  Get Appointment Today
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -179,6 +180,16 @@ export default function iv_vitamin_therapy() {
             </p>
           </div>
         </div>
+      </div>
+      <div className="mt-12 flex gap-x-6 gap-y-4 justify-center ">
+        <Link href="/contact">
+          <button
+            type="button"
+            className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border border-blue-600 transition-all text-white font-bold text-sm rounded px-6 py-3"
+          >
+            Get Appointment Today
+          </button>
+        </Link>
       </div>
     </div>
   );

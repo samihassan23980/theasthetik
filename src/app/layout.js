@@ -21,10 +21,10 @@ export default function RootLayout({ children }) {
           type="image/png"
           sizes="32x32"
         />
+
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body className={inter.className}>
-      
         <Navbar />
         {children}
         <Footer />
