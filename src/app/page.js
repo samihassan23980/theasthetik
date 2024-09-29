@@ -77,12 +77,12 @@ export default function Home() {
                 </p>
                 <div className="mt-4">
                   <Link href="/services">
-                  <button
-                    type="button"
-                    className="text-white  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-                  >
-                    Read More
-                  </button>
+                    <button
+                      type="button"
+                      className="text-white  bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-6 py-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                    >
+                      Read More
+                    </button>
                   </Link>
                 </div>
               </div>
@@ -264,7 +264,7 @@ export default function Home() {
               </div>
             </div>
           </Link>
-          <Link href="/services//services/thread-lifts">
+          <Link href="/services/thread-lifts">
             <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
               <div className="">
                 <img
@@ -295,7 +295,7 @@ export default function Home() {
               </div>
             </div>
           </Link>
-          <Link href="/services//services/fillers-treatment">
+          <Link href="/services/fillers-treatment">
             <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
               <div className="">
                 <img
@@ -323,7 +323,7 @@ export default function Home() {
               </div>
             </div>
           </Link>
-          <Link href="/services//services/iv-vitamin-therapy">
+          <Link href="/services/iv-vitamin-therapy">
             <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
               <div className="">
                 <img
