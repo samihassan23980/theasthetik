@@ -24,12 +24,7 @@ export default function MedicalGradeFacial() {
               >
                 Get Appointment Today
               </button></Link> 
-              <button
-                type="button"
-                className="bg-transparent text-gray-800 hover:bg-gray-800 hover:text-white border border-gray-800 transition-all font-bold text-sm rounded px-6 py-3"
-              >
-                Read More
-              </button>
+           
             </div>
           </div>
         </div>

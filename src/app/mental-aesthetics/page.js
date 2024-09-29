@@ -27,14 +27,6 @@ export default function MentalAesthetics() {
                   APPOINTMENT
                 </button>
               </Link>
-              <Link href="/about-us">
-                <button
-                  type="button"
-                  className="bg-transparent text-gray-800 hover:bg-gray-800 hover:text-white border border-gray-800 transition-all font-bold text-sm rounded px-6 py-3"
-                >
-                  Read More
-                </button>
-              </Link>
             </div>
           </div>
         </div>
@@ -50,301 +42,272 @@ export default function MentalAesthetics() {
 
       <div className="font-[sans-serif] py-4 mx-auto lg:max-w-6xl max-w-lg md:max-w-full">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 ">
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-            <div className="">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fcodependency.webp?alt=media&token=9a91491a-b294-48f2-8421-82f80f0bbd51"
-                alt="Product 1"
-                className="h-full w-full object-contain"
-              />
-            </div>
-            <div className=" bg-gray-100 p-6">
-              <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Codependency
-              </h3>
-              <p className="text-gray-600   mb-4 mt-2">
-                A treatment focused on helping individuals regain autonomy,
-                address unhealthy relationship dynamics, and build healthier
-                connections with others.
-              </p>
-
-              <Link href="/mental-aesthetics/codependency">
-                {" "}
+          <Link href="/mental-aesthetics/codependency">
+            <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+              <div className="">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fcodependency.webp?alt=media&token=9a91491a-b294-48f2-8421-82f80f0bbd51"
+                  alt="Product 1"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <div className=" bg-gray-100 p-6">
+                <h3 className="text-2xl font-bold mt-2 text-gray-800">
+                  Codependency
+                </h3>
+                <p className="text-gray-600   mb-4 mt-2">
+                  A treatment focused on helping individuals regain autonomy,
+                  address unhealthy relationship dynamics, and build healthier
+                  connections with others.
+                </p>{" "}
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
                 >
                   More Details
                 </button>
-              </Link>
+              </div>
             </div>
-          </div>
-
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-            <div className="">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2FNARCASSIM.webp?alt=media&token=d0b518ef-7a95-49d9-b295-025d2a5616be"
-                alt="Product 1"
-                className="h-full w-full object-contain"
-              />
-            </div>
-            <div className=" bg-gray-100 p-6">
-              <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Narcissism
-              </h3>
-              <p className="text-gray-600   mb-4 mt-2">
-                A therapeutic approach to manage narcissistic tendencies,
-                fostering self-awareness, empathy, and healthier interpersonal
-                relationships.
-              </p>
-
-              <Link href="/mental-aesthetics/narcissism">
-                {" "}
+          </Link>
+          <Link href="/mental-aesthetics/narcissism">
+            <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+              <div className="">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2FNARCASSIM.webp?alt=media&token=d0b518ef-7a95-49d9-b295-025d2a5616be"
+                  alt="Product 1"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <div className=" bg-gray-100 p-6">
+                <h3 className="text-2xl font-bold mt-2 text-gray-800">
+                  Narcissism
+                </h3>
+                <p className="text-gray-600   mb-4 mt-2">
+                  A therapeutic approach to manage narcissistic tendencies,
+                  fostering self-awareness, empathy, and healthier interpersonal
+                  relationships.
+                </p>{" "}
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
                 >
                   More Details
                 </button>
-              </Link>
+              </div>
             </div>
-          </div>
-
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-            <div className="">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fdepression.webp?alt=media&token=dd8f1c5a-1e6a-4056-afa7-ad5aa7dbe6b4"
-                alt="Product 1"
-                className="h-full w-full object-contain"
-              />
-            </div>
-            <div className=" bg-gray-100 p-6">
-              <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Depression
-              </h3>
-              <p className="text-gray-600   mb-4 mt-2">
-                Specialized treatment aimed at managing symptoms of depression,
-                improving mood, and enhancing overall well-being.
-              </p>
-
-              <Link href="/mental-aesthetics/depression">
-                {" "}
+          </Link>
+          <Link href="/mental-aesthetics/depression">
+            <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+              <div className="">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fdepression.webp?alt=media&token=dd8f1c5a-1e6a-4056-afa7-ad5aa7dbe6b4"
+                  alt="Product 1"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <div className=" bg-gray-100 p-6">
+                <h3 className="text-2xl font-bold mt-2 text-gray-800">
+                  Depression
+                </h3>
+                <p className="text-gray-600   mb-4 mt-2">
+                  Specialized treatment aimed at managing symptoms of
+                  depression, improving mood, and enhancing overall well-being.
+                </p>{" "}
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
                 >
                   More Details
                 </button>
-              </Link>
+              </div>
             </div>
-          </div>
-
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-            <div className="">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fchild%20abuse.webp?alt=media&token=15fc84dc-20f9-4d1a-ad54-053eaadb43f8"
-                alt="Product 1"
-                className="h-full w-full object-contain"
-              />
-            </div>
-            <div className=" bg-gray-100 p-6">
-              <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Childhood Abuse
-              </h3>
-              <p className="text-gray-600   mb-4 mt-2">
-                A compassionate therapy to address the long-term emotional
-                impacts of childhood abuse, helping individuals heal and reclaim
-                their sense of self.
-              </p>
-
-              <Link href="/mental-aesthetics/childhood-abuse">
-                {" "}
+          </Link>
+          <Link href="/mental-aesthetics/childhood-abuse">
+            <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+              <div className="">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fchild%20abuse.webp?alt=media&token=15fc84dc-20f9-4d1a-ad54-053eaadb43f8"
+                  alt="Product 1"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <div className=" bg-gray-100 p-6">
+                <h3 className="text-2xl font-bold mt-2 text-gray-800">
+                  Childhood Abuse
+                </h3>
+                <p className="text-gray-600   mb-4 mt-2">
+                  A compassionate therapy to address the long-term emotional
+                  impacts of childhood abuse, helping individuals heal and
+                  reclaim their sense of self.
+                </p>{" "}
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
                 >
                   More Details
                 </button>
-              </Link>
+              </div>
             </div>
-          </div>
-
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-            <div className="">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fdissociation.webp?alt=media&token=ec702784-e04e-4feb-834b-02f53a1bb6a9"
-                alt="Product 1"
-                className="h-full w-full object-contain"
-              />
-            </div>
-            <div className=" bg-gray-100 p-6">
-              <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Dissociation
-              </h3>
-              <p className="text-gray-600   mb-4 mt-2">
-                Treatment to help individuals ground themselves, improve
-                awareness, and reconnect with their thoughts, emotions, and
-                surroundings.
-              </p>
-
-              <Link href="/mental-aesthetics/dissociation">
-                {" "}
+          </Link>
+          <Link href="/mental-aesthetics/dissociation">
+            <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+              <div className="">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fdissociation.webp?alt=media&token=ec702784-e04e-4feb-834b-02f53a1bb6a9"
+                  alt="Product 1"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <div className=" bg-gray-100 p-6">
+                <h3 className="text-2xl font-bold mt-2 text-gray-800">
+                  Dissociation
+                </h3>
+                <p className="text-gray-600   mb-4 mt-2">
+                  Treatment to help individuals ground themselves, improve
+                  awareness, and reconnect with their thoughts, emotions, and
+                  surroundings.
+                </p>{" "}
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
                 >
                   More Details
                 </button>
-              </Link>
+              </div>
             </div>
-          </div>
-
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-            <div className="">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fcommunication.webp?alt=media&token=3ad2d0f7-ba7f-409d-8d45-571cba53329c"
-                alt="Product 1"
-                className="h-full w-full object-contain"
-              />
-            </div>
-            <div className=" bg-gray-100 p-6">
-              <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Communication
-              </h3>
-              <p className="text-gray-600   mb-4 mt-2">
-                Therapeutic sessions designed to improve communication skills,
-                ensuring clarity, understanding, and effective interpersonal
-                interactions.
-              </p>
-
-              <Link href="/mental-aesthetics/communication">
-                {" "}
+          </Link>
+          <Link href="/mental-aesthetics/communication">
+            <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+              <div className="">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fcommunication.webp?alt=media&token=3ad2d0f7-ba7f-409d-8d45-571cba53329c"
+                  alt="Product 1"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <div className=" bg-gray-100 p-6">
+                <h3 className="text-2xl font-bold mt-2 text-gray-800">
+                  Communication
+                </h3>
+                <p className="text-gray-600   mb-4 mt-2">
+                  Therapeutic sessions designed to improve communication skills,
+                  ensuring clarity, understanding, and effective interpersonal
+                  interactions.
+                </p>{" "}
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
                 >
                   More Details
                 </button>
-              </Link>
+              </div>
             </div>
-          </div>
-
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-            <div className="">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fdifficult%20conversations.webp?alt=media&token=ece774f2-726d-4de3-b777-e38fc8f25903"
-                alt="Product 1"
-                className="h-full w-full object-contain"
-              />
-            </div>
-            <div className=" bg-gray-100 p-6">
-              <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Difficult Conversations
-              </h3>
-              <p className="text-gray-600   mb-4 mt-2">
-                Guidance on how to navigate challenging conversations with
-                confidence and empathy, fostering healthier relationships.
-              </p>
-
-              <Link href="/mental-aesthetics/difficult-conversation">
-                {" "}
+          </Link>
+          <Link href="/mental-aesthetics/difficult-conversation">
+            <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+              <div className="">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fdifficult%20conversations.webp?alt=media&token=ece774f2-726d-4de3-b777-e38fc8f25903"
+                  alt="Product 1"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <div className=" bg-gray-100 p-6">
+                <h3 className="text-2xl font-bold mt-2 text-gray-800">
+                  Difficult Conversations
+                </h3>
+                <p className="text-gray-600   mb-4 mt-2">
+                  Guidance on how to navigate challenging conversations with
+                  confidence and empathy, fostering healthier relationships.
+                </p>{" "}
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
                 >
                   More Details
                 </button>
-              </Link>
+              </div>
             </div>
-          </div>
-
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-            <div className="">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Femotions%20inteligence.webp?alt=media&token=c437722a-ed92-494b-b521-b4828f0f7fc9"
-                alt="Product 1"
-                className="h-full w-full object-contain"
-              />
-            </div>
-            <div className=" bg-gray-100 p-6">
-              <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Emotional Intelligence
-              </h3>
-              <p className="text-gray-600   mb-4 mt-2">
-                Therapy focused on enhancing emotional awareness,
-                self-regulation, and empathy, leading to better emotional and
-                social functioning.
-              </p>
-
-              <Link href="/mental-aesthetics/emotional-Intelligence">
-                {" "}
+          </Link>
+          <Link href="/mental-aesthetics/emotional-Intelligence">
+            <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+              <div className="">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Femotions%20inteligence.webp?alt=media&token=c437722a-ed92-494b-b521-b4828f0f7fc9"
+                  alt="Product 1"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <div className=" bg-gray-100 p-6">
+                <h3 className="text-2xl font-bold mt-2 text-gray-800">
+                  Emotional Intelligence
+                </h3>
+                <p className="text-gray-600   mb-4 mt-2">
+                  Therapy focused on enhancing emotional awareness,
+                  self-regulation, and empathy, leading to better emotional and
+                  social functioning.
+                </p>{" "}
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
                 >
                   More Details
                 </button>
-              </Link>
+              </div>
             </div>
-          </div>
-
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-            <div className="">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Faddiction%20treatmrnt.webp?alt=media&token=daa8f285-87ac-4c6e-9057-f43c6edb5ce6"
-                alt="Product 1"
-                className="h-full w-full object-cover"
-              />
-            </div>
-            <div className=" bg-gray-100 p-6">
-              <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                Addiction Treatment
-              </h3>
-              <p className="text-gray-600   mb-4 mt-2">
-                Comprehensive support and therapy for overcoming addiction,
-                building coping strategies, and leading a substance-free life.
-              </p>
-
-              <Link href="/mental-aesthetics/addiction-treatment">
-                {" "}
+          </Link>
+          <Link href="/mental-aesthetics/addiction-treatment">
+            <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+              <div className="">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Faddiction%20treatmrnt.webp?alt=media&token=daa8f285-87ac-4c6e-9057-f43c6edb5ce6"
+                  alt="Product 1"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <div className=" bg-gray-100 p-6">
+                <h3 className="text-2xl font-bold mt-2 text-gray-800">
+                  Addiction Treatment
+                </h3>
+                <p className="text-gray-600   mb-4 mt-2">
+                  Comprehensive support and therapy for overcoming addiction,
+                  building coping strategies, and leading a substance-free life.
+                </p>{" "}
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
                 >
                   More Details
                 </button>
-              </Link>
+              </div>
             </div>
-          </div>
-
-          <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-            <div className="">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fptsd.webp?alt=media&token=12833bc7-a494-45cd-a6a0-519aa89b5de6"
-                alt="Product 1"
-                className="h-full w-full object-contain"
-              />
-            </div>
-            <div className=" bg-gray-100 p-6">
-              <h3 className="text-2xl font-bold mt-2 text-gray-800">PTSD</h3>
-              <p className="text-gray-600   mb-4 mt-2">
-                Post-Traumatic Stress Disorder (PTSD) is a mental health
-                condition that can develop after experiencing or witnessing a
-                traumatic event, such as violence, natural disasters, or serious
-                accidents.
-              </p>
-
-              <Link href="/mental-aesthetics/Post-traumatic-stress-disorder">
-                {" "}
+          </Link>
+          <Link href="/mental-aesthetics/Post-traumatic-stress-disorder">
+            <div className="bg-gray-200 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
+              <div className="">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/mental-asthetik%2Fptsd.webp?alt=media&token=12833bc7-a494-45cd-a6a0-519aa89b5de6"
+                  alt="Product 1"
+                  className="h-full w-full object-contain"
+                />
+              </div>
+              <div className=" bg-gray-100 p-6">
+                <h3 className="text-2xl font-bold mt-2 text-gray-800">PTSD</h3>
+                <p className="text-gray-600   mb-4 mt-2">
+                  Post-Traumatic Stress Disorder (PTSD) is a mental health
+                  condition that can develop after experiencing or witnessing a
+                  traumatic event, such as violence, natural disasters, or
+                  serious accidents.
+                </p>{" "}
                 <button
                   type="button"
                   className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
                 >
                   More Details
                 </button>
-              </Link>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </div>

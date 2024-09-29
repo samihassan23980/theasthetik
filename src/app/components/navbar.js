@@ -8,7 +8,6 @@ export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
     <>
-    
       <div className="bg-white">
         <div className=" fixed hidden md:grid bg-slate-900  grid-cols-2 z-20 h-16 w-full ">
           {/* Phone and Email Section */}
@@ -23,7 +22,9 @@ export default function Navbar() {
               >
                 <path d="M511.1 379.5c-1.1 10.4-5.9 25.9-11.4 35.1-1.5 2.7-5.6 5.1-8.6 6.6-15.5 7.5-45.5 16.1-45.5 16.1-92.1 12.6-197.7-52.1-276.9-131.3S-5.7 102.1 7 10.1C7 10.1 15.6-20 23.1-35.5c1.5-3 4.6-7.1 7.3-8.6C39.6-50 55.1-54.8 65.5-55.9c18.1-1.9 39.5-3.6 61.3 3.3 29.6 9.4 50.1 47.8 55.7 64.4 6.4 19.5 12.2 37.4 3.9 49.1-2.1 2.9-6.6 7.4-11.8 9.4-7.5 2.5-23.2 9.2-23.2 9.2 3.6 41.2 38.5 88.8 77.5 127.8 39 39 86.6 73.8 127.8 77.5 0 0 6.7-15.7 9.2-23.2 2-5.2 6.5-9.7 9.4-11.8 11.7-8.3 29.6-2.5 49.1 3.9 16.6 5.6 55 26.1 64.4 55.7 6.9 21.9 5.2 43.2 3.3 61.3z" />
               </svg>
-              <span className="text-white text-sm">+92-345-8222263</span>
+              <Link href="tel:+923458222263">
+                <span className="text-white text-sm">+92-345-8222263</span>
+              </Link>
             </div>
 
             <div className="flex px-6 mx-auto  items-center space-x-2">
@@ -36,12 +37,9 @@ export default function Navbar() {
               >
                 <path d="M502.3 190.8L327.4 338.3c-23.6 19.5-60.1 19.5-83.7 0L9.7 190.8C3.8 185.8 0 178.2 0 170.2V456c0 30.9 25.1 56 56 56h400c30.9 0 56-25.1 56-56V170.2c0-8-3.8-15.6-9.7-20.6zM256 320c12.5 0 24.9-4.3 34.8-12.9L496 144v-40c0-30.9-25.1-56-56-56H72c-30.9 0-56 25.1-56 56v40l205.2 163.2c9.9 7.8 22.3 12.9 34.8 12.9z" />
               </svg>
-              <a href="mailto:info@yourwebsite.com">
-                {" "}
-                <span className="text-white text-sm">
-                  info@theasthetik.com
-                </span>{" "}
-              </a>
+              <Link href="mailto:info@yourwebsite.com">
+                <span className="text-white text-sm">info@theasthetik.com</span>{" "}
+              </Link>
             </div>
           </div>
           <div className=" flex justify-end pr-6 space-x-3 items-center">
@@ -97,22 +95,6 @@ export default function Navbar() {
                     className="h-5 w-5"
                   >
                     <path d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z" />
-                  </svg>
-                </span>
-              </div>
-            </Link>
-
-            {/* X */}
-            <Link href="https://www.twitter.com/TheAsthetik" target="_blank">
-              <div className="h-10 w-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-600 transition-colors duration-300">
-                <span className="text-white">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="currentColor"
-                    viewBox="0 0 512 512"
-                    className="h-5 w-5"
-                  >
-                    <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
                   </svg>
                 </span>
               </div>
@@ -356,7 +338,7 @@ export default function Navbar() {
                       <ul className="space-y-4 border-l-4  border-blue-800">
                         <li className="rounded px-2">
                           <Link
-                            href="/mental-aesthetics/post-infidelity-stress-disorder"
+                            href="/mental-aesthetics/Post-traumatic-stress-disorder"
                             className=" text-black  block"
                           >
                             PTSD
