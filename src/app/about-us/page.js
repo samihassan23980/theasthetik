@@ -12,12 +12,6 @@ export default function About() {
               aesthetic services in Karachi through affordable and customizable
               packages.{" "}
             </p>
-            <button
-              type="button"
-              className="bg-transparent border-2 border-gray-800 mt-12 transition-all text-gray-800 font-bold text-sm rounded-md px-6 py-2.5"
-            >
-              Get Started
-            </button>
           </div>
         </div>
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6 px-4 my-12">
@@ -41,15 +35,10 @@ export default function About() {
               Personalized Care
             </h3>
             <p className="text-sm text-gray-600">
-              Receive tailored mental aesthetics treatments designed
-              specifically for your individual needs.
+              Receive tailored aesthetics, beauty and mental aesthetics
+              treatments designed specifically for your individual needs from
+              foreign qualified specialist doctors and councilors.
             </p>
-            <a
-              href=";"
-              className="text-blue-600 font-bold inline-block text-sm mt-4 hover:underline"
-            >
-              Learn more
-            </a>
           </div>
           <div className="bg-gray-100 p-6 rounded-md">
             <svg
@@ -67,15 +56,9 @@ export default function About() {
               24/7 Support
             </h3>
             <p className="text-sm text-gray-600">
-              We provide round-the-clock support to ensure your mental
-              well-being is our priority.
+              We provide round-the-clock support to ensure your beauty,
+              youthfulness and mental well-being . Because you are our priority.
             </p>
-            <a
-              href=""
-              className="text-blue-600 font-bold inline-block text-sm mt-4 hover:underline"
-            >
-              Learn more
-            </a>
           </div>
           <div className="bg-gray-100 p-6 rounded-md">
             <svg
@@ -103,15 +86,9 @@ export default function About() {
               Holistic Approach
             </h3>
             <p className="text-sm text-gray-600">
-              Achieve mental clarity and emotional balance with our
-              comprehensive, holistic treatments.
+              Achieve physical beauty, grace, mental clarity and emotional
+              balance with our comprehensive, holistic treatments.
             </p>
-            <a
-              href=""
-              className="text-blue-600 font-bold inline-block text-sm mt-4 hover:underline"
-            >
-              Learn more
-            </a>
           </div>
           <div className="bg-gray-100 p-6 rounded-md">
             <svg
@@ -152,12 +129,6 @@ export default function About() {
               Your privacy and confidentiality are safeguarded with the latest
               protection measures.
             </p>
-            <a
-              href=""
-              className="text-blue-600 font-bold inline-block text-sm mt-4 hover:underline"
-            >
-              Learn more
-            </a>
           </div>
         </div>
       </div>
@@ -166,7 +137,7 @@ export default function About() {
           <div className="grid grid-cols-1 gap-y-10 md:grid-cols-2 gap-x-12">
             <div className="text-right">
               <img
-                src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/the-ashthetik%2Fdr.jpg?alt=media&token=afd4950e-32f0-4246-a088-1ff633242a1b"
                 alt=""
                 className="inline rounded-lg lg:w-10/12 w-full object-cover"
               />
