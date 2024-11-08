@@ -6,11 +6,11 @@ export default function Prp_Treatmnts() {
       <div className="font-sans pt-44  ">
         <div className="text-center max-w-2xl max-md:max-w-md mx-auto">
           <div>
-            <h2 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
+            <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Revitalize Naturally:
-              <span className="text-blue-600"> PRP Treatments </span> for
+              <span className="text-blue-600 px-2"> PRP Treatments </span> for
               Youthful Radiance
-            </h2>
+            </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">
               Discover the power of Platelet-Rich Plasma (PRP) therapy for
               rejuvenation and revitalization. Our advanced PRP treatments

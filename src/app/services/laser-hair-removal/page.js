@@ -6,10 +6,10 @@ export default function laser_hair_removal() {
       <div className="font-sans pt-44  ">
         <div className="text-center max-w-2xl max-md:max-w-md mx-auto">
           <div>
-            <h2 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
-              Flawless Skin,
+            <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
+              Flawless Skin
               <span className="text-blue-600"> Smooth Confidence</span>
-            </h2>
+            </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">
               Experience the freedom of smooth, hair-free skin with our advanced
               laser hair removal treatments. Safe, effective, and tailored to

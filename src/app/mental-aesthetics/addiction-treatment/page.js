@@ -6,14 +6,14 @@ export default function AddictionTreatment() {
       <div className="font-sans pt-44 ">
         <div className="text-center max-w-2xl max-md:max-w-md mx-auto">
           <div>
-            <h2 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
+            <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Revitalizing Mind, Body, and Spirit -
-              <span className="text-blue-600">
-                {" "}
+              <span className="text-blue-600 px-2">
+               
                 Transforming Addiction Recovery
               </span>
-              with Aesthetic Care
-            </h2>
+               with Aesthetic Care
+            </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">
               As an addiction treatment specialist in mental aesthetics, I blend
               holistic care with innovative techniques to support your journey

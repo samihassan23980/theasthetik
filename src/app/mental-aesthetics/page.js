@@ -6,10 +6,10 @@ export default function MentalAesthetics() {
       <div className="font-sans pt-44 ">
         <div className="text-center max-w-2xl max-md:max-w-md mx-auto">
           <div>
-            <h2 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
+            <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Elevating Minds,
               <span className="text-blue-600"> Enhancing Aesthetics</span>
-            </h2>
+            </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">
               As a mental-aesthetics doctor, I specialize in harmonizing mental
               well-being with aesthetic refinement, offering personalized
@@ -34,9 +34,9 @@ export default function MentalAesthetics() {
 
       <div className=" mt-10 py-12 bg-white">
         <div className="max-w-screen-md mx-auto text-center">
-          <h1 className="mb-4 text-3xl font-bold dark:text-white">
+          <h2 className="mb-4 text-3xl font-bold dark:text-white">
             Aesthetic <span className="text-indigo-600">Services</span>
-          </h1>
+          </h2>
         </div>
       </div>
 

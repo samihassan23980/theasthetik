@@ -4,13 +4,13 @@ export default function About() {
       <div className="font-sans ">
         <div className="grid pt-44  lg:grid-cols-2 items-center lg:gap-y-6 bg-blue-500">
           <div className="max-lg:order-1 max-lg:text-center sm:p-12 p-4">
-            <h2 className="text-gray-800 lg:text-5xl text-3xl font-bold lg:!leading-[56px]">
+            <h1 className="text-gray-800 lg:text-5xl text-3xl font-bold lg:!leading-[56px]">
               You deserve to regain and maintain your youthfulness
-            </h2>
+            </h1>
             <p className="text-gray-800 mt-6 text-base leading-relaxed">
               As we passionately pursue our mission to deliver the best
               aesthetic services in Karachi through affordable and customizable
-              packages.{" "}
+              packages.
             </p>
           </div>
         </div>
@@ -31,9 +31,9 @@ export default function About() {
                 data-original="#000000"
               />
             </svg>
-            <h3 className="text-lg font-bold mb-2 text-gray-800">
+            <h2 className="text-lg font-bold mb-2 text-gray-800">
               Personalized Care
-            </h3>
+            </h2>
             <p className="text-sm text-gray-600">
               Receive tailored aesthetics, beauty and mental aesthetics
               treatments designed specifically for your individual needs from
@@ -52,9 +52,9 @@ export default function About() {
                 data-original="#000000"
               />
             </svg>
-            <h3 className="text-lg font-bold mb-2 text-gray-800">
+            <h2 className="text-lg font-bold mb-2 text-gray-800">
               24/7 Support
-            </h3>
+            </h2>
             <p className="text-sm text-gray-600">
               We provide round-the-clock support to ensure your beauty,
               youthfulness and mental well-being . Because you are our priority.
@@ -82,9 +82,9 @@ export default function About() {
                 />
               </g>
             </svg>
-            <h3 className="text-lg font-bold mb-2 text-gray-800">
+            <h2 className="text-lg font-bold mb-2 text-gray-800">
               Holistic Approach
-            </h3>
+            </h2>
             <p className="text-sm text-gray-600">
               Achieve physical beauty, grace, mental clarity and emotional
               balance with our comprehensive, holistic treatments.
@@ -122,9 +122,9 @@ export default function About() {
                 />
               </g>
             </svg>
-            <h3 className="text-lg font-bold mb-2 text-gray-800">
+            <h2 className="text-lg font-bold mb-2 text-gray-800">
               Confidentiality
-            </h3>
+            </h2>
             <p className="text-sm text-gray-600">
               Your privacy and confidentiality are safeguarded with the latest
               protection measures.

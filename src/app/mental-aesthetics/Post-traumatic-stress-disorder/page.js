@@ -6,13 +6,12 @@ export default function PISD() {
       <div className="font-sans pt-44 ">
         <div className="text-center max-w-2xl max-md:max-w-md mx-auto">
           <div>
-            <h2 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
+            <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Healing Beyond Betrayal:
-              <span className="text-blue-600">
-                {" "}
+              <span className="text-blue-600 px-2">
                 Finding Peace After Infidelity
               </span>
-            </h2>
+            </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">
               At our practice, we specialize in guiding individuals through the
               complex emotional landscape of post-infidelity stress disorder.

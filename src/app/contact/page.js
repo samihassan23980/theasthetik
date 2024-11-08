@@ -60,9 +60,9 @@ export default function Contact() {
                     data-original="#000000"
                   />
                 </svg>
-                <h4 className="text-gray-800 text-base font-bold mt-4">
+                <p className="text-gray-800 text-base font-bold mt-4">
                   Visit office
-                </h4>
+                </p>
                 <p className="text-sm text-gray-600 mt-2">
                   First Floor, Plot No. 54C, Lane 4 Shahbaz Commercial Area DHA
                   Phase 6 Karachi
@@ -82,12 +82,12 @@ export default function Contact() {
                     data-original="#000000"
                   />
                 </svg>
-                <h4 className="text-gray-800 text-base font-bold mt-4">
+                <p className="text-gray-800 text-base font-bold mt-4">
                   Call us
-                </h4>
+                </p>
                 <p className="text-sm text-gray-600 mt-2">0345-8222263</p>
                 <p className="text-sm text-gray-600 mt-2">03032216666</p>
-              </div>{" "}
+              </div>
             </Link>
             <Link href="mailto:info@yourwebsite.com">
               <div className="flex flex-col items-center justify-center rounded-lg w-full h-44 p-4 text-center bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)]">
@@ -105,9 +105,9 @@ export default function Contact() {
                     data-original="#000000"
                   />
                 </svg>
-                <h4 className="text-gray-800 text-base font-bold mt-4">
+                <p className="text-gray-800 text-base font-bold mt-4">
                   Chat to us
-                </h4>
+                </p>
                 <p className="text-sm text-gray-600 mt-2">
                   info@theasthetik.com
                 </p>
@@ -125,9 +125,9 @@ export default function Contact() {
                     data-original="#000000"
                   />
                 </svg>
-                <h4 className="text-gray-800 text-base font-bold mt-4">
+                <p className="text-gray-800 text-base font-bold mt-4">
                   Landline & Fax
-                </h4>
+                </p>
                 <p className="text-sm text-gray-600 mt-2">02135240710</p>
               </div>
             </Link>

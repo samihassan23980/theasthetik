@@ -6,10 +6,10 @@ export default function MedicalGradeFacial() {
       <div className="font-sans pt-44  ">
         <div className="text-center max-w-2xl max-md:max-w-md mx-auto">
           <div>
-            <h2 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
+            <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Revitalize Your Skin with
-              <span className="text-blue-600"> Medical Precision</span>
-            </h2>
+              <span className="text-blue-600 px-2"> Medical Precision</span>
+            </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">
               Our Medical Grade Facials combine cutting-edge technology with
               expert care to deliver customized treatments that target your

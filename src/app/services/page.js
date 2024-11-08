@@ -6,10 +6,10 @@ export default function Servics() {
       <div className="font-sans pt-44 py-6 ">
         <div className="text-center max-w-2xl max-md:max-w-md mx-auto">
           <div>
-            <h2 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
+            <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Bringing Beauty and
               <span className="text-blue-600"> Wellness Together</span>
-            </h2>
+            </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">
               We believe true beauty comes from within. Our clinic offers a
               variety of treatments to help you look and feel your best. From

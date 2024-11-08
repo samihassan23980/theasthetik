@@ -3,9 +3,11 @@ import imageLogo from "/public/logo.png";
 import Link from "next/link";
 import Contact from "./contact/page";
 
+
 export default function Home() {
   return (
     <div className="bg-white">
+ 
       {/* hero section start  */}
       <section className="px-2  py-12 sm:py-32 md:py-32 lg:py-32 relative top-16 bg-white md:px-0">
         <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
@@ -101,12 +103,12 @@ export default function Home() {
 
       <div className=" mt-10 py-12 bg-white">
         <div className="max-w-screen-md mx-auto text-center">
-          <h1 className="mb-4 text-3xl font-bold dark:text-white">
+          <h2 className="mb-4 text-3xl font-bold dark:text-white">
             Aesthetic <span className="text-indigo-600">Excellence</span>
-          </h1>
-          <h1 className="text-3xl sm:text-4xl font-bold  px-3 mb-2">
+          </h2>
+          <h2 className="text-3xl sm:text-4xl font-bold  px-3 mb-2">
             Botox Treatment
-          </h1>
+          </h2>
           <p className="text-gray-500 sm:hidden px-4  dark:text-white">
             ReGlow offers personalized Botox treatments led by Dr. Mohammad
             Hurmatali, focusing on enhancing natural beauty with subtle and
@@ -140,9 +142,9 @@ export default function Home() {
       {/* athestic service */}
       <div className="py-12 bg-white">
         <div className="max-w-screen-md mx-auto text-center">
-          <h1 className="mb-4 text-3xl font-bold dark:text-white">
+          <h2 className="mb-4 text-3xl font-bold dark:text-white">
             Aesthetic <span className="text-indigo-600">Services</span>
-          </h1>
+          </h2>
         </div>
       </div>
       <div className="font-[sans-serif] py-4 mx-auto lg:max-w-6xl max-w-lg md:max-w-full">

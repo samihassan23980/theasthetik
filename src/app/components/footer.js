@@ -95,7 +95,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h4 className="text-lg font-semibold mb-6 text-white">Pages</h4>
+          <h3 className="text-lg font-semibold mb-6 text-white">Pages</h3>
           <ul className="space-y-4">
             <li>
               <Link
@@ -124,7 +124,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h4 className="text-lg font-semibold mb-6 text-white">Information</h4>
+          <h3 className="text-lg font-semibold mb-6 text-white">Information</h3>
           <ul className="space-y-4">
             <li>
               <Link

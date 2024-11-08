@@ -6,10 +6,10 @@ export default function iv_vitamin_therapy() {
       <div className="font-sans pt-44  ">
         <div className="text-center max-w-2xl max-md:max-w-md mx-auto">
           <div>
-            <h2 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
+            <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Revitalize from Within with
-              <span className="text-blue-600"> IV Vitamin Therapy</span>
-            </h2>
+              <span className="text-blue-600 px-2"> IV Vitamin Therapy</span>
+            </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">
               Experience the power of targeted hydration and nutrition with our
               IV Vitamin Therapy. Designed to boost energy, enhance wellness,
