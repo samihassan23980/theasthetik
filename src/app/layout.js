@@ -29,6 +29,7 @@ export default function RootLayout({ children }) {
         />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="google-site-verification" content="FA1DrQTSlTQd3plMG4tacsZJvDRX3dTaLNydWnP4VRk" />
       </head>
       <body className={inter.className}>
         <Navbar />
