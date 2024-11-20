@@ -3,11 +3,9 @@ import imageLogo from "/public/logo.png";
 import Link from "next/link";
 import Contact from "./contact/page";
 
-
 export default function Home() {
   return (
     <div className="bg-white">
- 
       {/* hero section start  */}
       <section className="px-2  py-12 sm:py-32 md:py-32 lg:py-32 relative top-16 bg-white md:px-0">
         <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
@@ -48,9 +46,11 @@ export default function Home() {
             </div>
             <div className="w-full hidden md:block md:w-1/2">
               <div className="w-full h-auto overflow-hidden rounded-md shadow-2xl sm:rounded-xl transform hover:scale-105 transition-transform duration-500 ease-in-out">
-                <img
+                <Image
                   src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/the-ashthetik%2Ftop%20image.webp?alt=media&token=c119ff7f-292f-4253-9ff8-6469ae50af85"
-                  alt="Skincare Model"
+                  alt="Top Image"
+                  width={800} // Replace with your desired width
+                  height={600}
                   className="shadow-lg hover:shadow-2xl transition-shadow duration-500 ease-in-out"
                 />
               </div>
@@ -90,10 +90,13 @@ export default function Home() {
               </div>
             </div>
             <div className="img-box px-20 py-4">
-              <img
+              <Image
                 src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/the-ashthetik%2F2.webp?alt=media&token=9af7bccf-a5d5-446b-9017-aa6b8cd4199c"
                 alt="About Us tailwind page"
-                className=" shadow-2xl"
+                className="shadow-2xl"
+                layout="responsive"
+                width={16} // Aspect ratio width
+                height={9} // Aspect ratio height
               />
             </div>
           </div>
