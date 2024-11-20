@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -22,17 +23,33 @@ export default function RootLayout({ children }) {
           type="image/png"
           sizes="32x32"
         />
-            <link
-          rel="canonical"
-          href="https://theasthetik.com/"
-          key="canonical"
-        />
+        <link rel="canonical" href="https://theasthetik.com/" key="canonical" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="google-site-verification" content="FA1DrQTSlTQd3plMG4tacsZJvDRX3dTaLNydWnP4VRk" />
+        <meta
+          name="google-site-verification"
+          content="FA1DrQTSlTQd3plMG4tacsZJvDRX3dTaLNydWnP4VRk"
+        />
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        />
       </head>
       <body className={inter.className}>
         <Navbar />
+
         {children}
         <Footer />
       </body>

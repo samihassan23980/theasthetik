@@ -5,7 +5,10 @@ import { useState } from "react";
 import Link from "next/link";
 
 export default function Navbar() {
+  
   const [toggle, setToggle] = useState(false);
+
+  
   return (
     <>
       <div className="bg-white">
