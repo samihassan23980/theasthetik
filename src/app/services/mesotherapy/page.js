@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Mesotherapy at The Asthetik Clinic | Karachi",
+  description:
+    "Sculpt your dream body with Mesotherapy at The Asthetik Clinic in Karachi. Expertly administered by Dr. Samina Habib for impressive, non-surgical body contouring with minimal downtime.",
+  keywords: [
+    "mesotherapy",
+    "mesotherapy Karachi",
+    "body contouring mesotherapy",
+    "non-surgical body sculpting",
+    "liposuction alternative",
+    "Dr. Samina Habib mesotherapy",
+    "fat reduction mesotherapy",
+    "body shaping Karachi",
+    "Mesotherapy treatment Karachi",
+    "non-invasive body sculpting",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function Mesotherapy() {
   return (
     <div className="bg-white">

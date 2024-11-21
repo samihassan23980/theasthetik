@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Emotional Intelligence Therapy at The Asthetik Clinic | Karachi",
+  description:
+    "Master your emotions with Emotional Intelligence therapy at The Asthetik Clinic in Karachi. Enhance empathy, self-awareness, and resilience for a balanced, fulfilling life.",
+  keywords: [
+    "emotional intelligence",
+    "emotional intelligence therapy Karachi",
+    "mental aesthetics emotional intelligence",
+    "improve emotional intelligence",
+    "EI therapy Karachi",
+    "emotional resilience therapy",
+    "self-awareness emotional intelligence",
+    "empathy in emotional intelligence",
+    "balance through emotional intelligence",
+    "enhance emotional intelligence",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function EmotionalIntelligence() {
   return (
     <div className="bg-white">
@@ -8,7 +27,10 @@ export default function EmotionalIntelligence() {
           <div>
             <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Enhancing Lives Through
-              <span className="text-blue-600 px-2"> Emotional Intelligence</span>
+              <span className="text-blue-600 px-2">
+                {" "}
+                Emotional Intelligence
+              </span>
             </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">
               As an emotional intelligence specialist, I help individuals

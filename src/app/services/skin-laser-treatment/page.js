@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Skin Laser Treatment at The Asthetik Clinic | Karachi",
+  description:
+    "Reverse the signs of aging with expert skin laser treatments at The Asthetik Clinic in Karachi. Dr. Samina Habib uses advanced laser technology to smooth wrinkles, fine lines, and sun damage for a youthful, refreshed complexion.",
+  keywords: [
+    "skin laser treatment",
+    "laser skin resurfacing",
+    "anti-aging laser treatment",
+    "laser treatment Karachi",
+    "skin rejuvenation laser",
+    "Dr. Samina Habib skin laser",
+    "wrinkle treatment laser",
+    "laser skin therapy Karachi",
+    "advanced laser skin treatment",
+    "laser skin resurfacing Karachi",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function Skin_laser_treatments() {
   return (
     <div className="bg-white">
@@ -8,7 +27,10 @@ export default function Skin_laser_treatments() {
           <div>
             <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Unveil Your True Glow with Advanced
-              <span className="text-blue-600 px-2"> Skin Laser Treatment! </span>
+              <span className="text-blue-600 px-2">
+                {" "}
+                Skin Laser Treatment!{" "}
+              </span>
             </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">
               Skin laser treatment is a non-invasive procedure that uses

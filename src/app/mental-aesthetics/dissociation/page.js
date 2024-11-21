@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Dissociation Therapy at The Asthetik Clinic | Karachi",
+  description:
+    "Reconnect with yourself through expert dissociation therapy at The Asthetik Clinic in Karachi. Regain control over your thoughts, emotions, and reality for a more fulfilling life.",
+  keywords: [
+    "dissociation",
+    "dissociation therapy Karachi",
+    "mental health dissociation",
+    "overcoming dissociation",
+    "reconnecting with yourself",
+    "dissociation recovery Karachi",
+    "therapy for dissociation",
+    "dissociation healing",
+    "regain control over dissociation",
+    "grounded life dissociation therapy",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function Dissociation() {
   return (
     <div className="bg-white">
@@ -8,7 +27,10 @@ export default function Dissociation() {
           <div>
             <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Reconnecting the Mind and Body:
-              <span className="text-blue-600 px-2"> Your Journey to Wholeness.</span>
+              <span className="text-blue-600 px-2">
+                {" "}
+                Your Journey to Wholeness.
+              </span>
             </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">
               As a dissociation specialist, I help individuals bridge the gap

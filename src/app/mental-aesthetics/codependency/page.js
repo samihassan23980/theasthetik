@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Codependency Treatment at The Asthetik Clinic | Karachi",
+  description:
+    "Overcome codependency with specialized treatment at The Asthetik Clinic in Karachi. Regain control of your life and relationships for a healthier future.",
+  keywords: [
+    "codependency",
+    "codependency treatment Karachi",
+    "emotional wellness codependency",
+    "overcoming codependency",
+    "codependency recovery Karachi",
+    "healthy boundaries codependency",
+    "codependency therapy Karachi",
+    "mental health codependency",
+    "codependency relationship support",
+    "regain independence codependency",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function Codependency() {
   return (
     <div className="bg-white">
@@ -8,7 +27,10 @@ export default function Codependency() {
           <div>
             <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Breaking the Chains of Codependency
-              <span className="text-blue-600 px-2"> Embracing Self-Empowerment</span>
+              <span className="text-blue-600 px-2">
+                {" "}
+                Embracing Self-Empowerment
+              </span>
             </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">
               As a codependency mental aesthetics doctor, I guide individuals in
@@ -125,7 +147,7 @@ export default function Codependency() {
               </li>
               <li className="text-sm">
                 <strong>Self-Worth</strong>: Develop a strong sense of
-                self-worth that isn’t reliant on others' approval or validation.
+                self-worth that isn’t reliant on others approval or validation.
               </li>
             </ul>
           </div>
@@ -178,7 +200,7 @@ export default function Codependency() {
               – Ayesha, thriving client.
             </p>
             <p className="text-gray-600 leading-relaxed text-base">
-              “I had always put others' needs before mine, losing my sense of
+              “I had always put others needs before mine, losing my sense of
               self in the process. Thanks to The Asthetik Clinic, I’ve regained
               my independence and confidence.” – Fahad, confident client.
             </p>

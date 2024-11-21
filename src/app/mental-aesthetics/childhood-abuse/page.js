@@ -1,4 +1,22 @@
 import Link from "next/link";
+export const metadata = {
+  title: "Healing from Childhood Abuse at The Asthetik Clinic | Karachi",
+  description:
+    "Heal from childhood abuse with specialized therapy at The Asthetik Clinic in Karachi. Compassionate care for emotional release and long-term recovery.",
+  keywords: [
+    "childhood abuse",
+    "mental aesthetics childhood abuse",
+    "childhood abuse therapy Karachi",
+    "trauma recovery Karachi",
+    "healing from childhood abuse",
+    "emotional healing childhood trauma",
+    "childhood abuse recovery",
+    "mental health childhood abuse",
+    "self-discovery after abuse",
+    "long-term healing childhood trauma",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
 
 export default function ChildAbuse() {
   return (

@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Medical Grade Facials at The Asthetik Clinic | Karachi",
+  description:
+    "Experience transformative skincare with medical-grade facials at The Asthetik Clinic in Karachi. Expertly administered by Dr. Samina for deep rejuvenation, protection, and lasting skin health.",
+  keywords: [
+    "medical grade facials",
+    "medical facials Karachi",
+    "skin rejuvenation facials",
+    "anti-aging medical facials",
+    "Dr. Samina medical facials",
+    "professional skincare facials",
+    "deep skin treatments Karachi",
+    "medical facials for glowing skin",
+    "facial treatments Karachi",
+    "aesthetic medical facials",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function MedicalGradeFacial() {
   return (
     <div className="bg-white">

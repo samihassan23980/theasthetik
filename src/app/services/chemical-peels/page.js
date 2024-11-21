@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Chemical Peels at The Asthetik Clinic | Karachi",
+  description:
+    "Transform your skin with chemical peels at The Asthetik Clinic in Karachi. Expertly administered by Dr. Samina Habib for radiant, youthful skin and effective exfoliation.",
+  keywords: [
+    "chemical peels",
+    "chemical peels Karachi",
+    "skin rejuvenation chemical peels",
+    "youthful skin treatment",
+    "radiant skin chemical peels",
+    "chemical peel treatments Karachi",
+    "Dr. Samina Habib chemical peels",
+    "exfoliating chemical peels",
+    "non-invasive skin treatment",
+    "professional chemical peels Karachi",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function ChemicalPeels() {
   return (
     <div className="bg-white">

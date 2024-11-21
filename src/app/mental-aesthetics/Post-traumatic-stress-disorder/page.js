@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "PTSD Treatment at The Asthetik Clinic | Karachi",
+  description:
+    "Heal from PTSD with specialized treatment at The Asthetik Clinic in Karachi. Confront past traumas and find peace with our compassionate, long-term recovery approach.",
+  keywords: [
+    "PTSD",
+    "PTSD treatment Karachi",
+    "mental health PTSD",
+    "healing from trauma",
+    "PTSD therapy Karachi",
+    "trauma recovery support",
+    "psychological healing PTSD",
+    "emotional healing PTSD",
+    "PTSD recovery Karachi",
+    "long-term PTSD relief",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function PISD() {
   return (
     <div className="bg-white">

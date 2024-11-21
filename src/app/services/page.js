@@ -1,5 +1,26 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Aesthetic Services at The Asthetik Clinic | Karachi",
+  description:
+    "Discover a wide range of aesthetic services at The Asthetik Clinic in Karachi. From laser treatments to PRP, HIFU, chemical peels, thread lifts, and more, we offer expert care to enhance your beauty and wellness.",
+  keywords: [
+    "aesthetic services",
+    "beauty treatments Karachi",
+    "laser treatments Karachi",
+    "medical-grade facials",
+    "PRP therapy Karachi",
+    "HIFU treatment Karachi",
+    "chemical peels Karachi",
+    "thread lifts Karachi",
+    "IV vitamin therapy Karachi",
+    "aesthetic beauty services",
+    "wellness and beauty treatments",
+    "cosmetic treatments Karachi",
+    "professional aesthetic services",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
 export default function Servics() {
   return (
     <div className="bg-white">
@@ -15,7 +36,7 @@ export default function Servics() {
               variety of treatments to help you look and feel your best. From
               laser treatments and medical-grade facials to PRP and HIFU, we
               provide services that refresh your appearance while supporting
-              your well-being. Whether you're interested in chemical peels,
+              your well-being. Whether you are interested in chemical peels,
               thread lifts, or IV vitamin therapy, our expert team is here to
               help you achieve your beauty goals with care and precision.
             </p>

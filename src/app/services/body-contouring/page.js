@@ -1,5 +1,27 @@
 import Link from "next/link";
 
+
+
+export const metadata = {
+  title: "Body Contouring Services at The Asthetik Clinic | Karachi",
+  description:
+    "Sculpt your dream silhouette with non-surgical body contouring at The Asthetik Clinic in Karachi. Ultra V Lift Therapy and Lipolytic Injections for a defined, sculpted figure.",
+  keywords: [
+    "body contouring",
+    "non-surgical body contouring Karachi",
+    "Ultra V Lift Therapy",
+    "Lipolytic Injections Karachi",
+    "body shaping treatments",
+    "body contouring solutions Karachi",
+    "sculpted figure therapy",
+    "aesthetic body contouring",
+    "non-invasive body contouring",
+    "body contouring clinic Karachi",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
+
 export default function BodyContouring() {
   return (
     <div className="bg-white">

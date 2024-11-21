@@ -1,3 +1,23 @@
+export const metadata = {
+  title: "About The Asthetik Clinic | Premier Aesthetic Services in Karachi",
+  description:
+    "Learn more about The Asthetik Clinic, Karachi’s leading destination for advanced aesthetic treatments. Discover our expert team, state-of-the-art services, and our commitment to helping you look and feel your best.",
+  keywords: [
+    "about The Asthetik Clinic",
+    "aesthetic clinic Karachi",
+    "cosmetic treatments Karachi",
+    "aesthetic services",
+    "skin care clinic Karachi",
+    "Dr. Samina Habib clinic",
+    "advanced aesthetic treatments",
+    "top aesthetic clinic",
+    "Karachi beauty clinic",
+    "aesthetic doctor Karachi",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
+
 export default function About() {
   return (
     <div className="bg-white">

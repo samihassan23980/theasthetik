@@ -1,5 +1,23 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Laser Hair Removal at The Asthetik Clinic | Karachi",
+  description:
+    "Achieve smooth, hair-free skin with permanent laser hair removal at The Asthetik Clinic in Karachi. Expertly administered by Dr. Samina Habib for lasting results and freedom from shaving, waxing, and tweezing.",
+  keywords: [
+    "laser hair removal",
+    "laser hair removal Karachi",
+    "permanent hair removal",
+    "smooth skin laser treatment",
+    "hair-free skin Karachi",
+    "laser hair removal treatment",
+    "Dr. Samina Habib laser hair removal",
+    "aesthetic laser hair removal",
+    "professional laser hair removal",
+    "laser hair removal clinic Karachi",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
 export default function laser_hair_removal() {
   return (
     <div className="bg-white">

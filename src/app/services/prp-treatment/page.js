@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "PRP Hair Restoration Treatment at The Asthetik Clinic | Karachi",
+  description:
+    "Rediscover a fuller head of hair with PRP therapy at The Asthetik Clinic in Karachi. Expertly administered by Dr. Samina Habib to stimulate natural hair growth and restore your confidence.",
+  keywords: [
+    "PRP hair restoration",
+    "PRP treatment Karachi",
+    "hair loss treatment",
+    "hair regrowth PRP",
+    "platelet-rich plasma therapy",
+    "PRP therapy for hair loss",
+    "hair restoration Karachi",
+    "natural hair restoration",
+    "Dr. Samina Habib PRP",
+    "PRP hair growth treatment",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function Prp_Treatmnts() {
   return (
     <div className="bg-white">

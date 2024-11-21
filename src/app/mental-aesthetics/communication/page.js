@@ -1,4 +1,22 @@
 import Link from "next/link";
+export const metadata = {
+  title: "Communication Therapy at The Asthetik Clinic | Karachi",
+  description:
+    "Enhance your communication skills with therapy at The Asthetik Clinic in Karachi. Build deeper connections and express yourself with clarity and confidence.",
+  keywords: [
+    "communication",
+    "communication therapy Karachi",
+    "mental aesthetics communication",
+    "improve communication skills",
+    "effective communication therapy",
+    "communication skills Karachi",
+    "enhance communication",
+    "building connections therapy",
+    "clarity in communication",
+    "communication in relationships",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
 
 export default function Communication() {
   return (
@@ -8,7 +26,10 @@ export default function Communication() {
           <div>
             <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Empowering Minds through
-              <span className="text-blue-600 px-2"> Authentic Communication</span>
+              <span className="text-blue-600 px-2">
+                {" "}
+                Authentic Communication
+              </span>
             </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">
               As a communication mental aesthetics doctor, I help individuals

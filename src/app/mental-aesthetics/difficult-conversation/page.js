@@ -1,4 +1,22 @@
 import Link from "next/link";
+export const metadata = {
+  title: "Difficult Conversations Therapy at The Asthetik Clinic | Karachi",
+  description:
+    "Master the art of communication with therapy at The Asthetik Clinic in Karachi. Approach difficult conversations with confidence, empathy, and clarity for growth and understanding.",
+  keywords: [
+    "difficult conversations",
+    "communication therapy Karachi",
+    "mastering difficult conversations",
+    "communication skills therapy",
+    "empathy in communication",
+    "conflict resolution Karachi",
+    "effective communication therapy",
+    "difficult conversations therapy Karachi",
+    "understanding through communication",
+    "growth through tough conversations",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
 
 export default function DifficultConversatition() {
   return (
@@ -8,7 +26,10 @@ export default function DifficultConversatition() {
           <div>
             <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Master the Art of
-              <span className="text-blue-600 px-2"> Difficult Conversations </span>
+              <span className="text-blue-600 px-2">
+                {" "}
+                Difficult Conversations{" "}
+              </span>
               for Better Relationships
             </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">

@@ -1,5 +1,23 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Depression Treatment at The Asthetik Clinic | Karachi",
+  description:
+    "Find hope and healing from depression at The Asthetik Clinic in Karachi. Compassionate, holistic treatment for lasting emotional relief and personal empowerment.",
+  keywords: [
+    "depression",
+    "depression treatment Karachi",
+    "mental aesthetics depression",
+    "holistic depression therapy",
+    "overcoming depression Karachi",
+    "emotional healing depression",
+    "depression therapy Karachi",
+    "mental health depression treatment",
+    "depression recovery support",
+    "empowerment through depression therapy",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
 export default function Deprssion() {
   return (
     <div className="bg-white">

@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Dermal Fillers Treatment at The Asthetik Clinic | Karachi",
+  description:
+    "Restore volume and smooth away wrinkles with dermal fillers at The Asthetik Clinic in Karachi. Expertly administered by Dr. Samina Habib for a youthful, confident appearance.",
+  keywords: [
+    "fillers treatment",
+    "dermal fillers Karachi",
+    "wrinkle treatment fillers",
+    "facial fillers Karachi",
+    "volume restoration fillers",
+    "youthful appearance dermal fillers",
+    "anti-aging fillers Karachi",
+    "Dr. Samina Habib dermal fillers",
+    "non-surgical wrinkle treatment",
+    "confidence boosting fillers",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function FillersTreatments() {
   return (
     <div className="bg-white">

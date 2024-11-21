@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "IV Vitamin Therapy at The Asthetik Clinic | Karachi",
+  description:
+    "Boost your vitality and beauty with IV Vitamin Therapy at The Asthetik Clinic in Karachi. Expertly administered by Dr. Samina Habib for enhanced wellness and nourishment.",
+  keywords: [
+    "IV vitamin therapy",
+    "IV therapy Karachi",
+    "vitamin infusion Karachi",
+    "wellness IV therapy",
+    "boost vitality IV therapy",
+    "beauty IV therapy",
+    "IV vitamin treatment Karachi",
+    "IV mineral therapy",
+    "Dr. Samina Habib IV therapy",
+    "high-dose vitamin therapy",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function iv_vitamin_therapy() {
   return (
     <div className="bg-white">

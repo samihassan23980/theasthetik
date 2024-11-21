@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Botox Treatment at The Asthetik Clinic | Karachi",
+  description:
+    "Smooth away wrinkles and achieve youthful, radiant skin with Botox treatment by Dr. Samina Habib at The Asthetik Clinic in Karachi. Restore confidence with expertly administered care.",
+  keywords: [
+    "Botox treatment",
+    "Botox treatment Karachi",
+    "wrinkle reduction Botox",
+    "Botox injections Karachi",
+    "Botox for youthful skin",
+    "cosmetic Botox Karachi",
+    "Botox skin treatment",
+    "non-surgical wrinkle treatment",
+    "anti-aging Botox",
+    "Botox by Dr. Samina Habib",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function BotoxTreatment() {
   return (
     <div className="bg-white">
@@ -8,7 +27,10 @@ export default function BotoxTreatment() {
           <div>
             <h1 className="text-gray-800 md:text-4xl text-3xl font-extrabold mb-4 md:!leading-[45px]">
               Revitalize Your Look&rsquo;
-              <span className="text-blue-600 px-2"> Refresh Your Confidence</span>
+              <span className="text-blue-600 px-2">
+                {" "}
+                Refresh Your Confidence
+              </span>
             </h1>
             <p className="text-gray-600 mt-6  leading-relaxed">
               Achieve a youthful, refreshed appearance with our expert Botox
@@ -19,13 +41,14 @@ export default function BotoxTreatment() {
             </p>
 
             <div className="mt-12 flex gap-x-6 gap-y-4 justify-center ">
-            <Link href="/contact"><button
-                type="button"
-                className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border border-blue-600 transition-all text-white font-bold text-sm rounded px-6 py-3"
-              >
-                Get Appointment Today
-              </button></Link> 
-         
+              <Link href="/contact">
+                <button
+                  type="button"
+                  className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border border-blue-600 transition-all text-white font-bold text-sm rounded px-6 py-3"
+                >
+                  Get Appointment Today
+                </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -189,14 +212,15 @@ export default function BotoxTreatment() {
         </div>
       </div>
       <div className="mt-12 flex gap-x-6 gap-y-4 justify-center ">
-            <Link href="/contact"><button
-                type="button"
-                className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border border-blue-600 transition-all text-white font-bold text-sm rounded px-6 py-3"
-              >
-                Get Appointment Today
-              </button></Link> 
-             
-            </div>
+        <Link href="/contact">
+          <button
+            type="button"
+            className="bg-blue-600 hover:bg-transparent hover:text-blue-600 border border-blue-600 transition-all text-white font-bold text-sm rounded px-6 py-3"
+          >
+            Get Appointment Today
+          </button>
+        </Link>
+      </div>
     </div>
   );
 }

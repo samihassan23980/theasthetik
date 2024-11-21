@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Mental Aesthetics Services at The Asthetik Clinic | Karachi",
+  description:
+    "Explore mental aesthetics services at The Asthetik Clinic in Karachi. Personalized treatments that enhance mental well-being and aesthetic beauty, empowering you inside and out.",
+  keywords: [
+    "mental aesthetics",
+    "mental aesthetics services Karachi",
+    "mental wellness treatments",
+    "mental aesthetics doctor Karachi",
+    "mind and body treatments",
+    "aesthetic refinement therapy",
+    "holistic beauty and wellness",
+    "personalized mental aesthetics",
+    "mental health and beauty services",
+    "mental aesthetics clinic Karachi",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function MentalAesthetics() {
   return (
     <div className="bg-white ">

@@ -1,5 +1,23 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Narcissism Treatment at The Asthetik Clinic | Karachi",
+  description:
+    "Redefine your relationships with specialized narcissism treatment at The Asthetik Clinic in Karachi. Cultivate empathy, emotional regulation, and healthier dynamics.",
+  keywords: [
+    "narcissism",
+    "narcissism treatment Karachi",
+    "mental aesthetics narcissism",
+    "overcoming narcissism",
+    "narcissism therapy Karachi",
+    "healthy relationships narcissism",
+    "empathy in narcissism",
+    "emotional regulation narcissism",
+    "narcissism recovery Karachi",
+    "interpersonal dynamics therapy",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
 export default function Narcissism() {
   return (
     <div className="bg-white">
@@ -78,7 +96,7 @@ export default function Narcissism() {
               How We Can Help
             </h2>
             <p className="text-gray-600 leading-relaxed text-base">
-              The Asthetik Clinic's treatment for narcissism is designed to
+              The Asthetik Clinics treatment for narcissism is designed to
               foster self-awareness, encourage personal growth, and help you
               develop healthier ways of interacting with others. Our therapists
               use evidence-based approaches to guide you through understanding

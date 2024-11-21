@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "HIFU Skin Rejuvenation at The Asthetik Clinic | Karachi",
+  description:
+    "Turn back time with non-surgical skin rejuvenation using HIFU at The Asthetik Clinic in Karachi. Expertly administered by Dr. Samina Habib for visible skin tightening and lifting.",
+  keywords: [
+    "HIFU",
+    "HIFU skin rejuvenation Karachi",
+    "non-surgical facelift",
+    "skin tightening HIFU",
+    "HIFU treatment Karachi",
+    "non-invasive HIFU",
+    "anti-aging HIFU",
+    "HIFU skin lifting",
+    "skin rejuvenation without surgery",
+    "Dr. Samina Habib HIFU",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function HifuTreatments() {
   return (
     <div className="bg-white">

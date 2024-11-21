@@ -1,5 +1,24 @@
 import Link from "next/link";
 
+export const metadata = {
+  title: "Thread Lifts at The Asthetik Clinic | Karachi",
+  description:
+    "Rejuvenate your appearance with thread lifts at The Asthetik Clinic in Karachi. Dr. Samina Habib offers a non-surgical alternative to facelifts for lifting and tightening skin with minimal downtime.",
+  keywords: [
+    "thread lifts",
+    "thread lift treatment Karachi",
+    "non-surgical facelift",
+    "skin lifting thread lifts",
+    "Dr. Samina Habib thread lifts",
+    "thread lift rejuvenation",
+    "facial lifting treatment Karachi",
+    "non-invasive skin tightening",
+    "thread lifting procedure",
+    "thread lift aesthetic treatment",
+  ],
+  authors: [{ name: "The Asthetik Clinic" }],
+};
+
 export default function Thread_lifts() {
   return (
     <div className="bg-white">
