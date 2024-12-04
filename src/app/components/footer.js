@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
         <div className="lg:flex lg:items-center">
           <ul className="flex space-x-6">
-          <Link
+            <Link
               href="https://www.facebook.com/theasthetikclinic"
               target="_blank"
             >
@@ -76,9 +76,11 @@ export default function Footer() {
               </div>
             </Link>
 
-
             {/* Whatsapp */}
-            <Link href="https://wa.me/923458222263" target="_blank">
+            <Link
+              href="https://wa.me/923458222263?text=Hello,%20I%20am%20contacting%20you%20through%20your%20website.%20Please%20verify."
+              target="_blank"
+            >
               <div className="h-10 w-10 rounded-full bg-green-500 flex items-center justify-center hover:bg-green-700 transition-colors duration-300">
                 <span className="text-white">
                   <svg
@@ -143,10 +145,7 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <a
-                href=""
-                className="text-gray-300 hover:text-white text-sm"
-              >
+              <a href="" className="text-gray-300 hover:text-white text-sm">
                 Privacy Policy
               </a>
             </li>

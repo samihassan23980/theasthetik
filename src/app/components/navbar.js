@@ -104,7 +104,10 @@ export default function Navbar() {
             </Link>
 
             {/* Whatsapp */}
-            <Link href="https://wa.me/923458222263" target="_blank">
+            <Link
+                  href="https://wa.me/923458222263?text=Hello,%20I%20am%20contacting%20you%20through%20your%20website.%20Please%20verify."
+                  target="_blank"
+                >
               <div className="h-10 w-10 rounded-full bg-green-500 flex items-center justify-center hover:bg-green-700 transition-colors duration-300">
                 <span className="text-white">
                   <svg
@@ -177,7 +180,7 @@ export default function Navbar() {
                 <li onClick={() => setToggle(!toggle)}>
                   <Link
                     href="/"
-                    className="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-blue-500"
+                    className="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                     aria-current="page"
                   >
                     Home
