@@ -86,7 +86,7 @@ export default function Navbar() {
 
             {/* TikTok */}
             <Link
-              href="https://www.tiktok.com/@theast48?is_from_webapp=1&sender_device=pc"
+              href="https://www.tiktok.com/@theasthetikclinic"
               target="_blank"
             >
               <div className="h-10 w-10 rounded-full bg-black flex items-center justify-center hover:bg-gray-700 transition-colors duration-300">
@@ -105,7 +105,7 @@ export default function Navbar() {
 
             {/* Whatsapp */}
             <Link
-                  href="https://wa.me/923458222263?text=Hello,%20I%20am%20contacting%20you%20through%20your%20website.%20Please%20verify."
+                  href="https://wa.me/923458222263?text=Hello,%20I%20am%20contacting%20you%20through%20your%20website."
                   target="_blank"
                 >
               <div className="h-10 w-10 rounded-full bg-green-500 flex items-center justify-center hover:bg-green-700 transition-colors duration-300">
