@@ -1,5 +1,20 @@
 import Image from "next/image";
 import imageLogo from "/public/logo.png";
+import SkincareSpecialist from "/public/images/main/Aesthetic-&-Dermatologist-And-Skincare-Specialists-Clinic-in-Karachi.webp";
+import BotoxTreatment from "/public/images/main/botox-treatment-clinic-in-karachi.webp";
+import FillersTreatment from "/public/images/main/fillers-treatment-and-therapy-in-karachi.webp";
+import HifuTreatment from "/public/images/main/hifu-treatment-for-face-in-karachi.webp";
+import IVVitaminTherapy from "/public/images/main/IV-vitamin-therapy-skin-care-clinic-in-karachi.webp";
+import LaserHairRemoval from "/public/images/main/laser-epilation-hair-removal-therapy-in-karachi.webp";
+import MedicalGradeFacial from "/public/images/main/medical-grade-facial-in-karachi.webp";
+import Mesotherapy from "/public/images/main/mesotherapy-for-skin-care-clinic-in-karachi.webp";
+import Mesotherapyone from "/public/images/main/mesotherapy-for-skin-care-inkarachi.webp";
+import PrpTreatment from "/public/images/main/prp-treatment-for-skin-in-karachi.webp";
+import SkincareSpecialistOne from "/public/images/main/Skincare-Specialists-Clinic-in-Karachi.webp";
+import ChemicalPeel from "/public/images/main/skin-chemical-peel-treatment-and-therapy-in-karachi.jpg";
+import SkinLaserTreatment from "/public/images/main/Skin-laser-Treatment-in-karachi.webp";
+import ThreadLift from "/public/images/main/thread-lift-treatment-and-therapy-in-karachi.webp";
+import SkincareSpecialistTwo from "/public/images/main/Trusted-Aesthetic-&-Dermatologist-And-Skincare-Specialists-Clinic-in-Karachi.webp";
 import Link from "next/link";
 import Contact from "./contact/page";
 
@@ -13,16 +28,18 @@ export default function Home() {
             <div className="w-full md:w-1/2 md:px-3">
               <div className="w-full pb-6 space-y-6 sm:max-w-md lg:max-w-lg md:space-y-4 lg:space-y-8 xl:space-y-9 sm:pr-5 lg:pr-0 md:pb-0">
                 <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-5xl md:text-4xl lg:text-5xl xl:text-6xl">
-                  <span className="block xl:inline"> Quest of the Best</span>
-                  <span className="block  text-blue-700 lg:inline sm:px-2">
-                    Aesthetic Services
+                  <span className="block xl:inline">
+                    Trusted Aesthetic & Dermatologist And{" "}
                   </span>
-                  <span className="block xl:inline"> Ends Here</span>
+                  <span className="block  text-blue-700 lg:inline sm:px-2">
+                    Skincare Specialists Clinic
+                  </span>
+                  <span className="block xl:inline"> in Karachi</span>
                 </h1>
                 <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl">
-                  We are a doctor-led beauty clinic, Affiliated with various
-                  international institution. We make sure that the treatment
-                  provided here using state-of-the-art equipmet is up the mark.
+                  At TheAesthetik, we are proud to be recognized as the best
+                  aesthetic clinic in Karachi, dedicated to enhancing your
+                  natural beauty and restoring confidence.
                 </p>
                 <div className="relative flex justify-around sm:justify-normal sm:flex-row sm:space-x-4">
                   <Link href="/about-us">
@@ -47,7 +64,7 @@ export default function Home() {
             <div className="w-full hidden md:block md:w-1/2">
               <div className="w-full h-auto overflow-hidden rounded-md shadow-2xl sm:rounded-xl transform hover:scale-105 transition-transform duration-500 ease-in-out">
                 <Image
-                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/the-ashthetik%2Ftop%20image.webp?alt=media&token=c119ff7f-292f-4253-9ff8-6469ae50af85"
+                  src={SkincareSpecialist}
                   alt="Top Image"
                   width={800} // Replace with your desired width
                   height={600}
@@ -91,7 +108,7 @@ export default function Home() {
             </div>
             <div className="img-box px-20 py-4">
               <Image
-                src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/the-ashthetik%2F2.webp?alt=media&token=9af7bccf-a5d5-446b-9017-aa6b8cd4199c"
+                src={SkincareSpecialistTwo}
                 alt="About Us tailwind page"
                 className="shadow-2xl"
                 layout="responsive"
@@ -106,18 +123,18 @@ export default function Home() {
 
       <div className=" mt-10 py-12 bg-white">
         <div className="max-w-screen-md mx-auto text-center">
-          <h2 className="mb-4 text-3xl font-bold dark:text-white">
+          <h2 className="mb-4 text-3xl font-bold text-black ">
             Aesthetic <span className="text-indigo-600">Excellence</span>
           </h2>
-          <h2 className="text-3xl sm:text-4xl font-bold  px-3 mb-2">
+          <h2 className="text-3xl sm:text-4xl font-bold text-black  px-3 mb-2">
             Botox Treatment
           </h2>
-          <p className="text-gray-500 sm:hidden px-4  dark:text-white">
+          <p className="text-gray-500 sm:hidden px-4  ">
             ReGlow offers personalized Botox treatments led by Dr. Mohammad
             Hurmatali, focusing on enhancing natural beauty with subtle and
             natural-looking results.
           </p>
-          <p className="text-gray-500 hidden sm:block  dark:text-white">
+          <p className="text-gray-500 hidden sm:block  ">
             ReGlow offers personalized Botox treatments led by Dr. Mohammad
             Hurmatali, focusing on enhancing natural beauty with subtle and
             natural-looking results. Botox and FDA-approved treatment and
@@ -128,15 +145,17 @@ export default function Home() {
         </div>
         <div className="flex flex-col justify-center space-y-5 md:flex-row md:space-y-0 md:space-x-6 lg:space-x-10 mt-7 mb-8">
           <div className=" md:w-5/12 px-4 sm:px-0">
-            <img
+            <Image
               className="rounded-2xl shadow-2xl"
-              src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FBotox-Treatment-1.webp?alt=media&token=b0732bc0-4b90-4420-b8f1-477bf7b13ba4"
+              src={BotoxTreatment}
+              alt=""
             />
           </div>
           <div className=" md:w-5/12 px-4 sm:px-0">
-            <img
+            <Image
               className="rounded-2xl shadow-2xl"
-              src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2Fbotox-injection-botox-vs-fillers.webp?alt=media&token=45444854-fd69-42d9-b598-4e3bb6e2f67b"
+              src={Mesotherapy}
+              alt=""
             />
           </div>
         </div>
@@ -145,7 +164,7 @@ export default function Home() {
       {/* athestic service */}
       <div className="py-12 bg-white">
         <div className="max-w-screen-md mx-auto text-center">
-          <h2 className="mb-4 text-3xl font-bold dark:text-white">
+          <h2 className="mb-4 text-3xl font-bold text-black">
             Aesthetic <span className="text-indigo-600">Services</span>
           </h2>
         </div>
@@ -155,9 +174,9 @@ export default function Home() {
           <Link href="/services/skin-laser-treatment">
             <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
               <div className="">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FSkin-Laser-Treatment.webp?alt=media&token=f5dbccaf-218f-4fb0-9066-6b1d1597822f"
-                  alt="Product 1"
+                <Image
+                  src={SkinLaserTreatment}
+                  alt=""
                   className="h-full w-full object-contain"
                 />
               </div>
@@ -165,7 +184,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mt-2 text-gray-800">
                   Skin Laser Treatments
                 </h3>
-                <p className="text-gray-600   mb-4 mt-2">
+                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
                   Skin laser treatments are effective to fight signs of aging
                   like wrinkles and fine lines on the facial skin. It is also
                   helpful in treating the loss of skin tone by improving your
@@ -184,9 +203,9 @@ export default function Home() {
           <Link href="/services/medical-grade-facial">
             <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
               <div className="">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FMedical-Grade-Facial.webp?alt=media&token=fe300098-e7f7-4dbd-b9d8-96d3140656a1"
-                  alt="Product 1"
+                <Image
+                  src={MedicalGradeFacial}
+                  alt=""
                   className="h-full w-full object-contain"
                 />
               </div>
@@ -194,7 +213,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mt-2 text-gray-800">
                   Medical Grade Facial
                 </h3>
-                <p className="text-gray-600   mb-4 mt-2">
+                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
                   A medical grade facial can help you with your active skin
                   concerns and can also protect you from future skin issues. A
                   medical grade facial will enhance your skin health with a long
@@ -213,8 +232,8 @@ export default function Home() {
           <Link href="/services/laser-hair-removal">
             <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
               <div className="">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FLaser-Hair-Removal.webp?alt=media&token=575a2154-866b-4c25-95f2-3e761665c019"
+                <Image
+                  src={LaserHairRemoval}
                   alt="Product 1"
                   className="h-full w-full object-contain"
                 />
@@ -223,7 +242,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mt-2 text-gray-800">
                   Laser Hair Removal
                 </h3>
-                <p className="text-gray-600   mb-4 mt-2">
+                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
                   Laser hair removal is the option if you are tired of shaving,
                   tweezing or waxing for removal of unwanted hair. Laser hair
                   removal is the most common cosmetic procedure which uses
@@ -242,17 +261,17 @@ export default function Home() {
           <Link href="/services/chemical-peels">
             <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
               <div className="">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FChemical-Peels.webp?alt=media&token=386c4e78-6f04-40f0-bb85-d6727e7270f7"
+                <Image
+                  src={ChemicalPeel}
                   alt="Product 1"
                   className="h-full w-full object-contain"
                 />
               </div>
               <div className=" bg-gray-100 p-6">
-                <h3 className="text-2xl font-bold mt-2 text-gray-800">
+                <h3 className="text-2xl font-bold mt-2 text-gray-800 line-clamp-3">
                   Chemical Peels
                 </h3>
-                <p className="text-gray-600   mb-4 mt-2">
+                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
                   Chemical peels work like scrubs but are way more effective. In
                   chemical peels and a chemical solution is used that exfoliates
                   and retextures the skin by removing the outer layers.
@@ -272,8 +291,8 @@ export default function Home() {
           <Link href="/services/thread-lifts">
             <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
               <div className="">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FThread-Lift.webp?alt=media&token=21585bae-f139-4209-a647-7bd5eb8ae222"
+                <Image
+                  src={ThreadLift}
                   alt="Product 1"
                   className="h-full w-full object-contain"
                 />
@@ -282,7 +301,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mt-2 text-gray-800">
                   Thread Lifts
                 </h3>
-                <p className="text-gray-600   mb-4 mt-2">
+                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
                   If you are facing issues like jowls and drooping cheeks but
                   you cannot undergo a facelift surgery (or don&rsquo;t want
                   to), thread lifts are the good news for you. Thread lifts
@@ -303,8 +322,8 @@ export default function Home() {
           <Link href="/services/fillers-treatment">
             <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
               <div className="">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FFillers-Treatment.webp?alt=media&token=cbed129b-2210-4340-b335-09f99d9aa16f"
+                <Image
+                  src={FillersTreatment}
                   alt="Product 1"
                   className="h-full w-full object-contain"
                 />
@@ -313,7 +332,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mt-2 text-gray-800">
                   Fillers Treatment
                 </h3>
-                <p className="text-gray-600   mb-4 mt-2">
+                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
                   Fillers injections, commonly known as dermal fillers, are
                   among non-surgical cosmetic procedures. Dermal fillers plump
                   up wrinkles, smooth lines and restore volume in your face.
@@ -331,8 +350,8 @@ export default function Home() {
           <Link href="/services/iv-vitamin-therapy">
             <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
               <div className="">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FIV-Vitamin-Therapy.webp?alt=media&token=4eaf013e-e60f-4de3-90c9-370438441dd3"
+                <Image
+                  src={IVVitaminTherapy}
                   alt="Product 1"
                   className="h-full w-full object-contain"
                 />
@@ -341,7 +360,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mt-2 text-gray-800">
                   IV Vitamin Therapy
                 </h3>
-                <p className="text-gray-600   mb-4 mt-2">
+                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
                   IV vitamin therapy with many other benefits; detoxifies the
                   body, boosts immune system and delivers a natural glow to the
                   skin. It allows high absorption of vitamins and minerals that
@@ -361,9 +380,9 @@ export default function Home() {
           <Link href="/services/mesotherapy">
             <div className=" hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
               <div className="">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FMesotherapy.webp?alt=media&token=ede7ded3-7572-4b55-98e2-d31ee74bf197"
-                  alt="Product 1"
+                <Image
+                  src={Mesotherapyone}
+                  alt=""
                   className="h-full w-full object-contain"
                 />
               </div>
@@ -371,7 +390,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mt-2 text-gray-800">
                   Mesotherapy
                 </h3>
-                <p className="text-gray-600   mb-4 mt-2">
+                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
                   Mesotherapy is a promising way to remove unwanted fat and
                   shape up the body. It provides results similar to a
                   liposuction without the pain, expense and recovery time
@@ -390,14 +409,14 @@ export default function Home() {
           <Link href="/services/prp-treatment">
             <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
               <div className="">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FPRP-Therapy.webp?alt=media&token=7610276c-e8b2-4514-b314-55f86f0ced0d"
-                  alt="Product 1"
+                <Image
+                  src={PrpTreatment}
+                  alt=""
                   className="h-full w-full object-cover"
                 />
               </div>
               <div className=" bg-gray-100 p-6">
-                <h3 className="text-2xl font-bold mt-2 text-gray-800">
+                <h3 className="text-2xl font-bold mt-2 text-gray-800 line-clamp-3">
                   PRP Treatment
                 </h3>
                 <p className="text-gray-600   mb-4 mt-2">
@@ -420,9 +439,9 @@ export default function Home() {
           <Link href="/services/hifu-treatment">
             <div className="hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
               <div className="">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/the-asthetik.appspot.com/o/services%2FHIFU-Treatment.webp?alt=media&token=fdfcd1a5-32e7-4228-a6f7-76a6c519e958"
-                  alt="Product 1"
+                <Image
+                  src={HifuTreatment}
+                  alt=""
                   className="h-full w-full object-contain"
                 />
               </div>
@@ -430,7 +449,7 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mt-2 text-gray-800">
                   HIFU Treatment
                 </h3>
-                <p className="text-gray-600   mb-4 mt-2">
+                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
                   High Intensity Focused Ultrasound (HIFU) is a relatively new
                   and advanced cosmetic treatment best for skin tightening.
                   People are going for HIFU considering it a noninvasive and
