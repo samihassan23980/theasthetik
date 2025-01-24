@@ -1,13 +1,19 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = { eslint: {
+const nextConfig = {
+  eslint: {
     // Warning: This allows production builds to successfully complete even if
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
-  }, images: {
-    domains: ['firebasestorage.googleapis.com'],
   },
 
-
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "firebasestorage.googleapis.com",
+      },
+    ],
+  },
 };
 
 export default nextConfig;
