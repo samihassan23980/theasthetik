@@ -17,8 +17,103 @@ import ThreadLift from "/public/images/main/thread-lift-treatment-and-therapy-in
 import SkincareSpecialistTwo from "/public/images/main/Trusted-Aesthetic-&-Dermatologist-And-Skincare-Specialists-Clinic-in-Karachi.webp";
 import Link from "next/link";
 import Contact from "./contact/page";
+import AestheticServicesGrid from "./components/AestheticServicesGrid";
 
 export default function Home() {
+
+  const services = [
+  {
+    href: "/services/skin-laser-treatment",
+    title: "Skin Laser Treatments",
+    description:
+      "Advanced skin laser treatments for rejuvenation, acne scars, pigmentation correction, and skin tightening using modern laser technology.",
+    image: SkinLaserTreatment,
+    imageAlt: "Skin laser treatment for pigmentation and acne scars in Karachi",
+    priority: false,
+  },
+  {
+    href: "/services/medical-grade-facial",
+    title: "Medical Grade Facial",
+    description:
+      "Deep cleansing, exfoliation, and clinical rejuvenation to improve dullness, acne scars, fine lines, and uneven skin texture for a youthful glow.",
+    image: MedicalGradeFacial,
+    imageAlt: "Medical grade facial for glowing skin at dermatology clinic in Karachi",
+    priority: false,
+  },
+  {
+    href: "/services/laser-hair-removal",
+    title: "Laser Hair Removal",
+    description:
+      "Permanent laser hair removal for smooth, hair-free skin with long-lasting results—safe for multiple skin types with expert care.",
+    image: LaserHairRemoval,
+    imageAlt: "Laser hair removal treatment using advanced laser technology in Karachi",
+    priority: false,
+  },
+  {
+    href: "/services/chemical-peels",
+    title: "Chemical Peels",
+    description:
+      "Professional chemical peels to treat acne scars, sun damage, pigmentation, and fine lines—revealing brighter, smoother, clearer skin.",
+    image: ChemicalPeel,
+    imageAlt: "Chemical peel treatment for acne scars and skin brightening in Karachi",
+    priority: false,
+  },
+  {
+    href: "/services/thread-lifts",
+    title: "Thread Lifts",
+    description:
+      "Non-surgical thread lift treatment to lift sagging skin and reduce wrinkles with minimal downtime—instant facial rejuvenation results.",
+    image: ThreadLift,
+    imageAlt: "Thread lift treatment for facial lifting and skin tightening in Karachi",
+    priority: false,
+  },
+  {
+    href: "/services/fillers-treatment",
+    title: "Fillers Treatment",
+    description:
+      "Dermal fillers to restore volume, smooth wrinkles, and enhance facial contours—natural-looking results with minimal discomfort.",
+    image: FillersTreatment,
+    imageAlt: "Dermal fillers treatment for facial contouring and volume restoration in Karachi",
+    priority: false,
+  },
+  {
+    href: "/services/iv-vitamin-therapy",
+    title: "IV Vitamin Therapy",
+    description:
+      "IV vitamin therapy to support immunity, detox, hydration, and healthy skin glow with fast absorption of essential nutrients.",
+    image: IVVitaminTherapy,
+    imageAlt: "IV vitamin therapy for wellness and skin glow in Karachi",
+    priority: false,
+  },
+  {
+    href: "/services/mesotherapy",
+    title: "Mesotherapy",
+    description:
+      "Mesotherapy for skin rejuvenation and anti-aging—helps improve texture, hydration, fine lines, and overall skin radiance with expert care.",
+    image: Mesotherapyone,
+    imageAlt: "Mesotherapy treatment for skin rejuvenation in Karachi",
+    priority: false,
+  },
+  {
+    href: "/services/prp-treatment",
+    title: "PRP Treatment",
+    description:
+      "PRP (Platelet-Rich Plasma) therapy for hair restoration and skin rejuvenation—non-surgical, minimal downtime, natural long-lasting results.",
+    image: PrpTreatment,
+    imageAlt: "PRP treatment for hair restoration and skin rejuvenation in Karachi",
+    priority: false,
+  },
+  {
+    href: "/services/hifu-treatment",
+    title: "HIFU Treatment",
+    description:
+      "Non-invasive HIFU therapy to tighten skin, lift facial contours, and reduce wrinkles without surgery or downtime.",
+    image: HifuTreatment,
+    imageAlt: "HIFU treatment for skin tightening and lifting in Karachi",
+    priority: false,
+  },
+];
+
   return (
     <div className="bg-white">
       {/* hero section start  */}
@@ -230,335 +325,10 @@ export default function Home() {
           </div>
         </div>
       </div>
+<AestheticServicesGrid services={services} />
 
-      {/* athestic service */}
-      <div className="py-12 bg-white">
-        <div className="max-w-screen-md mx-auto text-center">
-          <h2 className="mb-4 text-3xl font-bold text-black">
-            Skin and Beauty Treatment{" "}
-            <span className="text-indigo-600">Services in Karachi </span>
-          </h2>
-        </div>
-      </div>
-      <div className="font-[sans-serif] py-4 mx-auto lg:max-w-6xl max-w-lg md:max-w-full">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 ">
-          <Link href="/services/skin-laser-treatment">
-            <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-              <div className="">
-                <Image
-                  src={SkinLaserTreatment}
-                  alt=""
-                  className="h-full w-full object-contain"
-                />
-              </div>
-              <div className=" bg-gray-100 p-6">
-                <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                  Skin Laser Treatments
-                </h3>
-                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
-                  Looking for the best Skin Laser Treatment? At The Asthetik, we
-                  offer advanced laser skin rejuvenation, scar removal, and
-                  pigmentation correction to give you flawless skin. Our expert
-                  dermatologists use cutting-edge laser therapy for wrinkle
-                  reduction, acne scar treatment, and skin tightening. Achieve
-                  radiant, youthful skin with our safe and effective cosmetic
-                  laser procedures.
-                </p>
 
-                <button
-                  type="button"
-                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-                >
-                  More Details
-                </button>
-              </div>
-            </div>
-          </Link>
-          <Link href="/services/medical-grade-facial">
-            <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-              <div className="">
-                <Image
-                  src={MedicalGradeFacial}
-                  alt=""
-                  className="h-full w-full object-contain"
-                />
-              </div>
-              <div className=" bg-gray-100 p-6">
-                <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                  Medical Grade Facial
-                </h3>
-                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
-                  Experience the best Medical Grade Facial at The Asthetik
-                  clinic, designed to deeply cleanse, exfoliate, and rejuvenate
-                  your skin. Struggling with dull skin, acne scars, fine lines,
-                  or uneven texture? Our advanced clinical facial treatments
-                  target these concerns, restoring a youthful glow. Book your
-                  professional skin rejuvenation session today for radiant,
-                  healthy skin!
-                </p>
 
-                <button
-                  type="button"
-                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-                >
-                  More Details
-                </button>
-              </div>
-            </div>
-          </Link>
-          <Link href="/services/laser-hair-removal">
-            <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-              <div className="">
-                <Image
-                  src={LaserHairRemoval}
-                  alt="Product 1"
-                  className="h-full w-full object-contain"
-                />
-              </div>
-              <div className=" bg-gray-100 p-6">
-                <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                  Laser Hair Removal
-                </h3>
-                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
-                  Say goodbye to unwanted hair with Laser Hair Removal at The
-                  Asthetik. Our advanced laser technology ensures smooth,
-                  hair-free skin with long-lasting results. No more painful
-                  waxing, shaving, or ingrown hairs—just safe, effective
-                  treatment for all skin types. Experience a permanent solution
-                  to hair removal with our expert aesthetic specialists today!
-                </p>
-
-                <button
-                  type="button"
-                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-                >
-                  More Details
-                </button>
-              </div>
-            </div>
-          </Link>
-          <Link href="/services/chemical-peels">
-            <div className="bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-              <div className="">
-                <Image
-                  src={ChemicalPeel}
-                  alt="Product 1"
-                  className="h-full w-full object-contain"
-                />
-              </div>
-              <div className=" bg-gray-100 p-6">
-                <h3 className="text-2xl font-bold mt-2 text-gray-800 line-clamp-3">
-                  Chemical Peels
-                </h3>
-                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
-                  At The Asthetik Clinic, we specialize in chemical peels for
-                  smoother, clearer skin. Our professional treatments target
-                  acne scars, sun damage, and fine lines, offering a
-                  non-invasive solution to rejuvenate your complexion. Say
-                  goodbye to dull skin and hello to glowing, youthful radiance
-                  with our skin resurfacing services.
-                </p>
-
-                <button
-                  type="button"
-                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-                >
-                  More Details
-                </button>
-              </div>
-            </div>
-          </Link>
-          <Link href="/services/thread-lifts">
-            <div className=" md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-              <div className="">
-                <Image
-                  src={ThreadLift}
-                  alt="Product 1"
-                  className="h-full w-full object-contain"
-                />
-              </div>
-              <div className=" bg-gray-100 p-6">
-                <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                  Thread Lifts
-                </h3>
-                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
-                  At The Asthetik Clinic, we specialize in Thread Lifts,
-                  offering non-surgical solutions to lift and tighten skin,
-                  reducing sagging and wrinkles. Our expert team provides
-                  minimally invasive treatments with instant results for facial
-                  rejuvenation. If you're concerned about aging skin or skin
-                  laxity, experience affordable, effective alternatives at our
-                  clinic.
-                </p>
-
-                <button
-                  type="button"
-                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-                >
-                  More Details
-                </button>
-              </div>
-            </div>
-          </Link>
-          <Link href="/services/fillers-treatment">
-            <div className=" md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-              <div className="">
-                <Image
-                  src={FillersTreatment}
-                  alt="Product 1"
-                  className="h-full w-full object-contain"
-                />
-              </div>
-              <div className=" bg-gray-100 p-6">
-                <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                  Fillers Treatment
-                </h3>
-                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
-                  Looking for effective Fillers Treatment at The Asthetik
-                  Clinic? Our expert team offers non-invasive facial fillers to
-                  smooth wrinkles, restore volume, and rejuvenate your
-                  appearance. Say goodbye to sagging skin, fine lines, and
-                  volume loss. Experience natural-looking results with minimal
-                  discomfort and downtime at our trusted clinic. Dermal fillers,
-                  anti-aging treatments, and facial rejuvenation options
-                  available.
-                </p>
-
-                <button
-                  type="button"
-                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-                >
-                  More Details
-                </button>
-              </div>
-            </div>
-          </Link>
-          <Link href="/services/iv-vitamin-therapy">
-            <div className=" md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-              <div className="">
-                <Image
-                  src={IVVitaminTherapy}
-                  alt="Product 1"
-                  className="h-full w-full object-contain"
-                />
-              </div>
-              <div className=" bg-gray-100 p-6">
-                <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                  IV Vitamin Therapy
-                </h3>
-                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
-                  IV vitamin therapy with many other benefits; detoxifies the
-                  body, boosts immune system and delivers a natural glow to the
-                  skin. It allows high absorption of vitamins and minerals that
-                  are injected into the bloodstream directly, for increased fast
-                  benefits.
-                </p>
-
-                <button
-                  type="button"
-                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-                >
-                  More Details
-                </button>
-              </div>
-            </div>
-          </Link>
-          <Link href="/services/mesotherapy">
-            <div className=" hidden md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-              <div className="">
-                <Image
-                  src={Mesotherapyone}
-                  alt=""
-                  className="h-full w-full object-contain"
-                />
-              </div>
-              <div className=" bg-gray-100 p-6">
-                <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                  Mesotherapy
-                </h3>
-                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
-                  At The Asthetik Clinic, we offer expert Mesotherapy treatments
-                  to help you achieve smoother, rejuvenated skin. Struggling
-                  with stubborn cellulite, wrinkles, or sagging? Our Mesotherapy
-                  for skin rejuvenation, anti-aging Mesotherapy, and cellulite
-                  treatment can address these concerns effectively, restoring
-                  confidence and youthful glow. Reclaim your beauty today!
-                </p>
-
-                <button
-                  type="button"
-                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-                >
-                  More Details
-                </button>
-              </div>
-            </div>
-          </Link>
-          <Link href="/services/prp-treatment">
-            <div className=" md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-              <div className="">
-                <Image
-                  src={PrpTreatment}
-                  alt=""
-                  className="h-full w-full object-cover"
-                />
-              </div>
-              <div className=" bg-gray-100 p-6">
-                <h3 className="text-2xl font-bold mt-2 text-gray-800 ">
-                  PRP Treatment
-                </h3>
-                <p className="text-gray-600   mb-4 mt-2">
-                  At The Asthetik Clinic, our PRP (Platelet-Rich Plasma)
-                  treatment offers a non-surgical solution for hair restoration,
-                  skin rejuvenation, and healing. Say goodbye to thinning hair,
-                  wrinkles, and scars. Experience a painless procedure with
-                  minimal downtime for natural, long-lasting results. Trust The
-                  Asthetik for professional PRP therapy in Karachi.
-                </p>
-
-                <button
-                  type="button"
-                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-                >
-                  More Details
-                </button>
-              </div>
-            </div>
-          </Link>
-          <Link href="/services/hifu-treatment">
-            <div className=" md:block sm:block lg:block bg-white sm:bg-gray-200 px-5 sm:px-0 md:px-0 rounded-xl cursor-pointer hover:scale-[1.03] transition-all relative overflow-hidden">
-              <div className="">
-                <Image
-                  src={HifuTreatment}
-                  alt=""
-                  className="h-full w-full object-contain"
-                />
-              </div>
-              <div className=" bg-gray-100 p-6">
-                <h3 className="text-2xl font-bold mt-2 text-gray-800">
-                  HIFU Treatment
-                </h3>
-                <p className="text-gray-600   mb-4 mt-2 line-clamp-3">
-                  Looking for effective HIFU Treatment at The Asthetik Clinic?
-                  Our non-invasive HIFU therapy targets wrinkles, sagging skin,
-                  and signs of aging, providing youthful, firmer skin. At The
-                  Asthetik, we offer expert care using advanced technology for
-                  lifting, tightening, and rejuvenation, all without the need
-                  for surgery or downtime.
-                </p>
-
-                <button
-                  type="button"
-                  className="w-full flex items-center justify-center gap-3 mt-6 px-6 py-3 bg-blue-600 text-base text-white font-semibold rounded-xl"
-                >
-                  More Details
-                </button>
-              </div>
-            </div>
-          </Link>
-        </div>
-      </div>
-      {/* athestic service */}
 
       {/* athestic service */}
 
