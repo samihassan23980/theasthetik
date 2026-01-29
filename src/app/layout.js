@@ -3,16 +3,61 @@ import "./globals.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  metadataBase: new URL("https://theasthetik.com"),
   title: "Achieve Your Beauty Goals with The Ästhetik Clinic",
   description:
     "Discover personalized aesthetic solutions at The Ästhetik. From Botox to laser treatments, we tailor plans to your unique beauty needs.",
+
+  alternates: {
+    canonical: "https://theasthetik.com",
+  },
 };
 
 export default function RootLayout({ children }) {
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: "The Asthetik Clinic",
+      url: "https://theasthetik.com",
+      logo: "https://theasthetik.com/logo.png",
+      sameAs: [
+        "https://www.facebook.com/theasthetikclinic",
+        "https://instagram.com/theasthetikclinic",
+        "https://www.tiktok.com/@theasthetikclinic",
+      ],
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      name: "The Asthetik Clinic",
+      url: "https://theasthetik.com",
+      image: "https://theasthetik.com/logo.png",
+      telephone: "+92-345-8222263",
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Karachi",
+        addressCountry: "PK",
+      },
+      areaServed: "Karachi",
+      medicalSpecialty: ["Dermatology", "Cosmetic Surgery"],
+      priceRange: "$$",
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: "The Asthetik Clinic",
+      url: "https://theasthetik.com",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: "https://theasthetik.com/services?q={search_term_string}",
+        "query-input": "required name=search_term_string",
+      },
+    },
+  ];
   return (
     <html lang="en">
       <head>
@@ -46,7 +91,7 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
-            <script
+        <script
           dangerouslySetInnerHTML={{
             __html: `
               !function(f,b,e,v,n,t,s)
@@ -66,7 +111,7 @@ export default function RootLayout({ children }) {
           <img
             height="1"
             width="1"
-            style={{ display: 'none' }}
+            style={{ display: "none" }}
             src="https://www.facebook.com/tr?id=759531935737229&ev=PageView&noscript=1"
           />
         </noscript>
