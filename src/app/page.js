@@ -62,12 +62,17 @@ export default function Home() {
               </div>
             </div>
             <div className="w-full hidden md:block md:w-1/2">
-              <div className="w-full h-auto overflow-hidden rounded-md shadow-2xl sm:rounded-xl transform hover:scale-105 transition-transform duration-500 ease-in-out">
+              <div className="w-full h-auto overflow-hidden rounded-md shadow-2xl sm:rounded-xl will-change-transform motion-safe:hover:scale-105 transition-transform duration-500 ease-in-out">
                 <Image
                   src={SkincareSpecialist}
-                  alt="Top Image"
-                  width={800} // Replace with your desired width
+                  alt="Skincare specialist consultation at TheAesthetik clinic in Karachi"
+                  width={800}
                   height={600}
+                  priority
+                  fetchPriority="high"
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  placeholder="blur"
+                  quality={80}
                   className="shadow-lg hover:shadow-2xl transition-shadow duration-500 ease-in-out"
                 />
               </div>
@@ -83,10 +88,16 @@ export default function Home() {
             <div className="flex-1 sm:hidden lg:block">
               <Image
                 src={Mesotherapyone}
+                alt="Mesotherapy treatment results for skin care"
+                width={600}
+                height={400}
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                placeholder="blur"
+                quality={80}
                 className="md:max-w-lg sm:rounded-lg"
-                alt=""
               />
             </div>
+
             <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
               <h3 className="text-indigo-600 font-semibold">
                 Best Beauty Clinic in Karachi
@@ -105,9 +116,10 @@ export default function Home() {
                 for advanced care and transformative results for all your skin
                 needs.
               </p>
-              <a
-                href="javascript:void(0)"
+              <Link
+                href="/services"
                 className="inline-flex gap-x-1 items-center text-indigo-600 hover:text-indigo-500 duration-150 font-medium"
+                aria-label="Learn more about skin and beauty treatments"
               >
                 Learn more
                 <svg
@@ -115,6 +127,8 @@ export default function Home() {
                   viewBox="0 0 20 20"
                   fill="currentColor"
                   className="w-5 h-5"
+                  aria-hidden="true"
+                  focusable="false"
                 >
                   <path
                     fillRule="evenodd"
@@ -122,7 +136,7 @@ export default function Home() {
                     clipRule="evenodd"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -160,11 +174,13 @@ export default function Home() {
             <div className="img-box px-20 py-4">
               <Image
                 src={SkincareSpecialistTwo}
-                alt="About Us tailwind page"
+                alt="Cosmetic dermatology consultation at The Asthetik clinic"
+                width={1200}
+                height={675}
+                sizes="(min-width: 1024px) 50vw, 100vw"
+                placeholder="blur"
+                quality={80}
                 className="shadow-2xl"
-                layout="responsive"
-                width={16} // Aspect ratio width
-                height={9} // Aspect ratio height
               />
             </div>
           </div>
